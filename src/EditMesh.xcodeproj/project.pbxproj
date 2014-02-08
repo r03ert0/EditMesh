@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		6201740F0D8559A5009917BF /* MyTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6201740E0D8559A5009917BF /* MyTextView.m */; };
-		62280A3518A695C6006D1021 /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 62280A3318A695C6006D1021 /* util.c */; };
-		62280A3818A695E5006D1021 /* math3D.c in Sources */ = {isa = PBXBuildFile; fileRef = 62280A3618A695E5006D1021 /* math3D.c */; };
-		62280A3D18A69610006D1021 /* editmesh.c in Sources */ = {isa = PBXBuildFile; fileRef = 62280A3918A69610006D1021 /* editmesh.c */; };
-		62280A3E18A69610006D1021 /* mesh.c in Sources */ = {isa = PBXBuildFile; fileRef = 62280A3B18A69610006D1021 /* mesh.c */; };
+		62280A4718A6BFEF006D1021 /* editmesh.c in Sources */ = {isa = PBXBuildFile; fileRef = 62280A3F18A6BFEF006D1021 /* editmesh.c */; };
+		62280A4818A6BFEF006D1021 /* math3D.c in Sources */ = {isa = PBXBuildFile; fileRef = 62280A4118A6BFEF006D1021 /* math3D.c */; };
+		62280A4918A6BFEF006D1021 /* mesh.c in Sources */ = {isa = PBXBuildFile; fileRef = 62280A4318A6BFEF006D1021 /* mesh.c */; };
+		62280A4A18A6BFEF006D1021 /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 62280A4518A6BFEF006D1021 /* util.c */; };
 		628618CD0927721E0060DCC8 /* Trackball.m in Sources */ = {isa = PBXBuildFile; fileRef = 628618CC0927721E0060DCC8 /* Trackball.m */; };
 		62A7309B0F32FE6400B4E330 /* colourmap.c in Sources */ = {isa = PBXBuildFile; fileRef = 62A7309A0F32FE6400B4E330 /* colourmap.c */; };
 		62AD36B00C55E395009892F6 /* MyMeshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AD36AF0C55E395009892F6 /* MyMeshView.m */; };
@@ -40,14 +40,14 @@
 		32DBCF750370BD2300C91783 /* EditMesh_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditMesh_Prefix.pch; sourceTree = "<group>"; };
 		6201740D0D8559A5009917BF /* MyTextView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MyTextView.h; sourceTree = "<group>"; };
 		6201740E0D8559A5009917BF /* MyTextView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MyTextView.m; sourceTree = "<group>"; };
-		62280A3318A695C6006D1021 /* util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = util.c; path = "../../../../Documents/Mi C/Standard C/util.c"; sourceTree = "<group>"; };
-		62280A3418A695C6006D1021 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = util.h; path = "../../../../Documents/Mi C/Standard C/util.h"; sourceTree = "<group>"; };
-		62280A3618A695E5006D1021 /* math3D.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = math3D.c; path = "../../../../Documents/Mi C/Standard C/math3D.c"; sourceTree = "<group>"; };
-		62280A3718A695E5006D1021 /* math3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = math3D.h; path = "../../../../Documents/Mi C/Standard C/math3D.h"; sourceTree = "<group>"; };
-		62280A3918A69610006D1021 /* editmesh.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = editmesh.c; path = "../../../../Documents/Mi C/Standard C/editmesh.c"; sourceTree = "<group>"; };
-		62280A3A18A69610006D1021 /* editmesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = editmesh.h; path = "../../../../Documents/Mi C/Standard C/editmesh.h"; sourceTree = "<group>"; };
-		62280A3B18A69610006D1021 /* mesh.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mesh.c; path = "../../../../Documents/Mi C/Standard C/mesh.c"; sourceTree = "<group>"; };
-		62280A3C18A69610006D1021 /* mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mesh.h; path = "../../../../Documents/Mi C/Standard C/mesh.h"; sourceTree = "<group>"; };
+		62280A3F18A6BFEF006D1021 /* editmesh.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = editmesh.c; sourceTree = "<group>"; };
+		62280A4018A6BFEF006D1021 /* editmesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = editmesh.h; sourceTree = "<group>"; };
+		62280A4118A6BFEF006D1021 /* math3D.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = math3D.c; sourceTree = "<group>"; };
+		62280A4218A6BFEF006D1021 /* math3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = math3D.h; sourceTree = "<group>"; };
+		62280A4318A6BFEF006D1021 /* mesh.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mesh.c; sourceTree = "<group>"; };
+		62280A4418A6BFEF006D1021 /* mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mesh.h; sourceTree = "<group>"; };
+		62280A4518A6BFEF006D1021 /* util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = util.c; sourceTree = "<group>"; };
+		62280A4618A6BFEF006D1021 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
 		627E2F9309FA1CC5003A6515 /* colourmap.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = colourmap.h; sourceTree = "<group>"; };
 		628618C1092771990060DCC8 /* MyMeshView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MyMeshView.h; sourceTree = "<group>"; };
 		628618CB0927721E0060DCC8 /* Trackball.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Trackball.h; sourceTree = "<group>"; };
@@ -160,16 +160,16 @@
 		626E13760988F03E008C58B0 /* Standard C */ = {
 			isa = PBXGroup;
 			children = (
-				62280A3318A695C6006D1021 /* util.c */,
-				62280A3418A695C6006D1021 /* util.h */,
+				62280A3F18A6BFEF006D1021 /* editmesh.c */,
+				62280A4018A6BFEF006D1021 /* editmesh.h */,
+				62280A4118A6BFEF006D1021 /* math3D.c */,
+				62280A4218A6BFEF006D1021 /* math3D.h */,
+				62280A4318A6BFEF006D1021 /* mesh.c */,
+				62280A4418A6BFEF006D1021 /* mesh.h */,
+				62280A4518A6BFEF006D1021 /* util.c */,
+				62280A4618A6BFEF006D1021 /* util.h */,
 				627E2F9309FA1CC5003A6515 /* colourmap.h */,
 				62A7309A0F32FE6400B4E330 /* colourmap.c */,
-				62280A3918A69610006D1021 /* editmesh.c */,
-				62280A3A18A69610006D1021 /* editmesh.h */,
-				62280A3B18A69610006D1021 /* mesh.c */,
-				62280A3C18A69610006D1021 /* mesh.h */,
-				62280A3618A695E5006D1021 /* math3D.c */,
-				62280A3718A695E5006D1021 /* math3D.h */,
 			);
 			name = "Standard C";
 			sourceTree = "<group>";
@@ -238,15 +238,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62280A3E18A69610006D1021 /* mesh.c in Sources */,
 				8D15AC310486D014006FF6A4 /* MyDocument.m in Sources */,
 				8D15AC320486D014006FF6A4 /* main.m in Sources */,
+				62280A4818A6BFEF006D1021 /* math3D.c in Sources */,
 				628618CD0927721E0060DCC8 /* Trackball.m in Sources */,
-				62280A3D18A69610006D1021 /* editmesh.c in Sources */,
 				62AD36B00C55E395009892F6 /* MyMeshView.m in Sources */,
-				62280A3518A695C6006D1021 /* util.c in Sources */,
+				62280A4A18A6BFEF006D1021 /* util.c in Sources */,
+				62280A4918A6BFEF006D1021 /* mesh.c in Sources */,
 				6201740F0D8559A5009917BF /* MyTextView.m in Sources */,
-				62280A3818A695E5006D1021 /* math3D.c in Sources */,
+				62280A4718A6BFEF006D1021 /* editmesh.c in Sources */,
 				62A7309B0F32FE6400B4E330 /* colourmap.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

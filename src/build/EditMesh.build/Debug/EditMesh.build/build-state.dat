@@ -926,7 +926,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesed2ae84f96a6b841^5da4f44f96a6b841^---0#1#1#--18"Check dependencies36"8AE4238F-5BAC-469B-B501-23A3D6F28A11-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies92926e17bea6b841^fc8c6f17bea6b841^---0#1#1#--18"Check dependencies36"1F14D29D-CCF0-44C5-BD59-65176AA77EB3-
 
 CCompileC build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/MyDocument.o /Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s401817572.118197
