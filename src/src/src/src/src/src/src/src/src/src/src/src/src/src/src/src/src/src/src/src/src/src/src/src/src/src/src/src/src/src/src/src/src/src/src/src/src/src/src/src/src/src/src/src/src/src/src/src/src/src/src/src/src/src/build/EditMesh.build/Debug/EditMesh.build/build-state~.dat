@@ -1,630 +1,0 @@
-TEditMesh
-v5
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/EditMesh.app/Contents/Info.plist Info.plist
-cStripNIB /Users/roberto/Applications/brainbits/m.EditMesh/English.lproj/MyDocument.nib
-cCpResource English.lproj/Credits.rtf build/Debug/EditMesh.app/Contents/Resources/English.lproj/Credits.rtf
-cStripNIB /Users/roberto/Applications/brainbits/m.EditMesh/English.lproj/MainMenu.nib
-cCopyStringsFile /Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/EditMesh.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-cProcessPCH /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EditMesh_Prefix-edoncyfbantuhoaafesmxeiuactl/EditMesh_Prefix.pch.pth EditMesh_Prefix.pch normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EditMesh_Prefix-bflscqtdxqjcspbdcifabchxlsmy/EditMesh_Prefix.pch.pth EditMesh_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/MyDocument.o /Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/mesh.o "/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/mesh.c" normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/math3D.o "/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/math3D.c" normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/editmesh.o "/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/editmesh.c" normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/util.o "/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/util.c" normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/MyTextView.o /Users/roberto/Applications/brainbits/m.EditMesh/MyTextView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/colourmap.o /Users/roberto/Applications/brainbits/m.EditMesh/colourmap.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/main.o /Users/roberto/Applications/brainbits/m.EditMesh/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/Trackball.o /Users/roberto/Applications/brainbits/m.EditMesh/Trackball.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/MyMeshView.o /Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/EditMesh.app/Contents/MacOS/EditMesh normal i386
-cTouch /Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/EditMesh.app
-
-N/System/Library/Frameworks/Cocoa.framework/Cocoa
-c00000000508116960000000000006730
-t1350637206
-s26416
-
-N/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
-c0000000050E74CF400000000000001E5
-t1357335796
-s485
-
-N/System/Library/Frameworks/OpenGL.framework/OpenGL
-c00000000508116A2000000000002DAF0
-t1350637218
-s187120
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/editmesh.c
-c00000000513754BB000000000001A490
-t1362580667
-s107664
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/editmesh.h
-c0000000051359B9B00000000000010E1
-t1362467739
-s4321
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/math3D.c
-c00000000508276220000000000008805
-t1350727202
-s34821
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/math3D.h
-c000000004BDBF8EA0000000000001157
-t1272707306
-s4439
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/mesh.c
-c000000005133A9700000000000010EA4
-t1362340208
-s69284
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/mesh.h
-c000000005133A55B0000000000001A13
-t1362339163
-s6675
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/util.c
-c000000005130B00B0000000000001F45
-t1362145291
-s8005
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/util.h
-c00000000508BB3FC0000000000000311
-t1351332860
-s785
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/EditMesh_Prefix.pch
-c000000004377399D0000000000000093
-t1131887005
-s147
-i<Cocoa/Cocoa.h>
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/English.lproj/Credits.rtf
-c000000004377399D00000000000001B4
-t1131887005
-s436
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/English.lproj/InfoPlist.strings
-c000000004377399D0000000000000102
-t1131887005
-s258
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/English.lproj/MainMenu.nib
-c000000004A6852AC00000000000000AA
-t1248350892
-s170
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/English.lproj/MyDocument.nib
-c000000004AF05F6000000000000000AA
-t1257267040
-s170
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.h
-c000000004FC3959700000000000003A4
-t1338217879
-s932
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m
-c000000005137486F0000000000007167
-t1362577519
-s29031
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.h
-c000000005133667400000000000009BF
-t1362323060
-s2495
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.m
-c000000005134BA3B0000000000008C24
-t1362410043
-s35876
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/MyTextView.h
-c000000004537450300000000000000C7
-t1161250051
-s199
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/MyTextView.m
-c00000000453745030000000000000A14
-t1161250051
-s2580
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/Trackball.h
-c000000004024A08400000000000001EF
-t1076142212
-s495
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/Trackball.m
-c0000000044E456120000000000001970
-t1155814930
-s6512
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/EditMesh.app
-t2
-s0
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/EditMesh.app/Contents/Info.plist
-t2
-s0
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/EditMesh.app/Contents/MacOS/EditMesh
-t2
-s0
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/EditMesh.app/Contents/PkgInfo
-t2
-s0
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/EditMesh.app/Contents/Resources/English.lproj/Credits.rtf
-t2
-s0
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/EditMesh.app/Contents/Resources/English.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/EditMesh.app/Contents/Resources/English.lproj/MainMenu.nib
-t2
-s0
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/EditMesh.app/Contents/Resources/English.lproj/MyDocument.nib
-t2
-s0
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/EditMesh.LinkFileList
-c00000000513755BC00000000000004BE
-t1362580924
-s1214
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/MyDocument.o
-t2
-s0
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/MyMeshView.o
-t2
-s0
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/MyTextView.o
-t2
-s0
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/Trackball.o
-t2
-s0
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/colourmap.o
-t2
-s0
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/editmesh.o
-t2
-s0
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/main.o
-t2
-s0
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/math3D.o
-t2
-s0
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/mesh.o
-t2
-s0
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/util.o
-t2
-s0
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/colourmap.c
-c000000004991494C0000000000000313
-t1234258252
-s787
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/colourmap.h
-c00000000499148260000000000005D53
-t1234257958
-s23891
-
-N/Users/roberto/Applications/brainbits/m.EditMesh/main.m
-c000000004377399D0000000000000101
-t1131887005
-s257
-
-N/var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EditMesh_Prefix-bflscqtdxqjcspbdcifabchxlsmy/EditMesh_Prefix.pch.pth
-t1362580759
-s13986084
-
-N/var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EditMesh_Prefix-edoncyfbantuhoaafesmxeiuactl/EditMesh_Prefix.pch.pth
-t1362580758
-s82772
-
-NInfo.plist
-c000000004CEAA21C0000000000000E9E
-t1290445340
-s3742
-
-CBuild AST from "/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/editmesh.c"
-r0
-
-CBuild AST from "/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/math3D.c"
-r0
-
-CBuild AST from "/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/mesh.c"
-r0
-
-CBuild AST from "/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/util.c"
-r0
-
-CBuild AST from /Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m
-r0
-
-CBuild AST from /Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.m
-r0
-
-CBuild AST from /Users/roberto/Applications/brainbits/m.EditMesh/MyTextView.m
-r0
-
-CBuild AST from /Users/roberto/Applications/brainbits/m.EditMesh/Trackball.m
-r0
-
-CBuild AST from /Users/roberto/Applications/brainbits/m.EditMesh/colourmap.c
-r0
-
-CBuild AST from /Users/roberto/Applications/brainbits/m.EditMesh/main.m
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciescdcbb53c8de7b641^2575b63c8de7b641^---0#1#0#--18"Check dependencies36"96955D38-27DF-4F11-B5C2-AA3880329601-
-
-CCompileC build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/MyDocument.o /Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s384273725.045950
-e384273725.215024
-r1
-xCompileC
-xbuild/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/MyDocument.o
-x/Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oIn file included from /Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m:9:
-oIn file included from /Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.h:11:
-oIn file included from /Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.h:7:
-oIn file included from /Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/editmesh.h:14:
-o/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/mesh.h:12:9: warning: 'MIN' macro redefined
-o#define MIN(x,y)    (((x)<(y))?(x):(y))
-o        ^
-o/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:457:13: note: previous definition is here
-o    #define MIN(A,B)    ({ __typeof__(A) __a = (A); __typeof__(B) __b = (B); __a < __b ? __a : __b; })
-o            ^
-o/Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m:142:29: warning: 'filename' is deprecated [-Wdeprecated-declarations]
-o        NSString *filename=[savePanel filename];
-o                            ^
-o/Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m:143:60: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types]
-o        msh_exportFSTextureData([view verticesData], M.np, [filename UTF8String]);
-o                                                           ^~~~~~~~~~~~~~~~~~~~~
-o/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/mesh.h:103:53: note: passing argument to parameter 'path' here
-oint msh_exportFSTextureData(float *d, int np, char *path);
-o                                                    ^
-o/Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m:155:10: warning: 'runModalForDirectory:file:types:' is deprecated [-Wdeprecated-declarations]
-o        result=[open runModalForDirectory:nil file:nil types:[NSArray arrayWithObjects:@"annot",@"area",@"avg_curv",@"curv",@"sulc",@"target",@"thickness",@"float",@"inflated",@"txt",@"txt1",nil]];
-o                ^
-o/System/Library/Frameworks/AppKit.framework/Headers/NSOpenPanel.h:61:1: note: method 'runModalForDirectory:file:types:' declared here
-o- (NSInteger)runModalForDirectory:(NSString *)path file:(NSString *)name types:(NSArray *)fileTypes NS_DEPRECATED_MAC(10_0, 10_6);
-o^
-o/Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m:159:9: warning: 'filenames' is deprecated [-Wdeprecated-declarations]
-o        path=[[open filenames] objectAtIndex:0];
-o               ^
-o/System/Library/Frameworks/AppKit.framework/Headers/NSOpenPanel.h:43:1: note: method 'filenames' declared here
-o- (NSArray *)filenames NS_DEPRECATED_MAC(10_0, 10_6);
-o^
-o/Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m:165:36: warning: incompatible pointer types passing 'float3D *' to parameter of type 'float **' [-Wincompatible-pointer-types]
-o        msh_importFSMeshAnnotation(C,M.np, (char*)[path UTF8String]);
-o                                   ^
-o/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/mesh.h:104:40: note: passing argument to parameter 'dat' here
-oint msh_importFSMeshAnnotation(float **dat, int np, char *path);
-o                                       ^
-o/Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m:298:10: warning: 'runModalForDirectory:file:types:' is deprecated [-Wdeprecated-declarations]
-o        result=[open runModalForDirectory:nil file:nil types:[NSArray arrayWithObjects:@"float3D",nil]];
-o                ^
-o/System/Library/Frameworks/AppKit.framework/Headers/NSOpenPanel.h:61:1: note: method 'runModalForDirectory:file:types:' declared here
-o- (NSInteger)runModalForDirectory:(NSString *)path file:(NSString *)name types:(NSArray *)fileTypes NS_DEPRECATED_MAC(10_0, 10_6);
-o^
-o/Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m:302:9: warning: 'filenames' is deprecated [-Wdeprecated-declarations]
-o        path=[[open filenames] objectAtIndex:0];
-o               ^
-o/System/Library/Frameworks/AppKit.framework/Headers/NSOpenPanel.h:43:1: note: method 'filenames' declared here
-o- (NSArray *)filenames NS_DEPRECATED_MAC(10_0, 10_6);
-o^
-o/Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m:321:10: warning: 'runModalForDirectory:file:types:' is deprecated [-Wdeprecated-declarations]
-o        result=[open runModalForDirectory:nil file:nil types:[NSArray arrayWithObjects:@"tif",@"png",@"psd",nil]];
-o                ^
-o/System/Library/Frameworks/AppKit.framework/Headers/NSOpenPanel.h:61:1: note: method 'runModalForDirectory:file:types:' declared here
-o- (NSInteger)runModalForDirectory:(NSString *)path file:(NSString *)name types:(NSArray *)fileTypes NS_DEPRECATED_MAC(10_0, 10_6);
-o^
-o/Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m:325:9: warning: 'filenames' is deprecated [-Wdeprecated-declarations]
-o        path=[[open filenames] objectAtIndex:0];
-o               ^
-o/System/Library/Frameworks/AppKit.framework/Headers/NSOpenPanel.h:43:1: note: method 'filenames' declared here
-o- (NSArray *)filenames NS_DEPRECATED_MAC(10_0, 10_6);
-o^
-o10 warnings generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m6efa0b3d8de7b641^390b373d8de7b641^-5017"In file included from /Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m:9:In file included from /Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.h:11:In file included from /Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.h:7:In file included from /Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/editmesh.h:14:/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/mesh.h:12:9: warning: 'MIN' macro redefined#define MIN(x,y)    (((x)<(y))?(x):(y))        ^/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:457:13: note: previous definition is here    #define MIN(A,B)    ({ __typeof__(A) __a = (A); __typeof__(B) __b = (B); __a < __b ? __a : __b; })            ^/Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m:142:29: warning: 'filename' is deprecated [-Wdeprecated-declarations]        NSString *filename=[savePanel filename];                            ^/Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m:143:60: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types]        msh_exportFSTextureData([view verticesData], M.np, [filename UTF8String]);                                                           ^~~~~~~~~~~~~~~~~~~~~/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/mesh.h:103:53: note: passing argument to parameter 'path' hereint msh_exportFSTextureData(float *d, int np, char *path);                                                    ^/Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m:155:10: warning: 'runModalForDirectory:file:types:' is deprecated [-Wdeprecated-declarations]        result=[open runModalForDirectory:nil file:nil types:[NSArray arrayWithObjects:@"annot",@"area",@"avg_curv",@"curv",@"sulc",@"target",@"thickness",@"float",@"inflated",@"txt",@"txt1",nil]];                ^/System/Library/Frameworks/AppKit.framework/Headers/NSOpenPanel.h:61:1: note: method 'runModalForDirectory:file:types:' declared here- (NSInteger)runModalForDirectory:(NSString *)path file:(NSString *)name types:(NSArray *)fileTypes NS_DEPRECATED_MAC(10_0, 10_6);^/Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m:159:9: warning: 'filenames' is deprecated [-Wdeprecated-declarations]        path=[[open filenames] objectAtIndex:0];               ^/System/Library/Frameworks/AppKit.framework/Headers/NSOpenPanel.h:43:1: note: method 'filenames' declared here- (NSArray *)filenames NS_DEPRECATED_MAC(10_0, 10_6);^/Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m:165:36: warning: incompatible pointer types passing 'float3D *' to parameter of type 'float **' [-Wincompatible-pointer-types]        msh_importFSMeshAnnotation(C,M.np, (char*)[path UTF8String]);                                   ^/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/mesh.h:104:40: note: passing argument to parameter 'dat' hereint msh_importFSMeshAnnotation(float **dat, int np, char *path);                                       ^/Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m:298:10: warning: 'runModalForDirectory:file:types:' is deprecated [-Wdeprecated-declarations]        result=[open runModalForDirectory:nil file:nil types:[NSArray arrayWithObjects:@"float3D",nil]];                ^/System/Library/Frameworks/AppKit.framework/Headers/NSOpenPanel.h:61:1: note: method 'runModalForDirectory:file:types:' declared here- (NSInteger)runModalForDirectory:(NSString *)path file:(NSString *)name types:(NSArray *)fileTypes NS_DEPRECATED_MAC(10_0, 10_6);^/Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m:302:9: warning: 'filenames' is deprecated [-Wdeprecated-declarations]        path=[[open filenames] objectAtIndex:0];               ^/System/Library/Frameworks/AppKit.framework/Headers/NSOpenPanel.h:43:1: note: method 'filenames' declared here- (NSArray *)filenames NS_DEPRECATED_MAC(10_0, 10_6);^/Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m:321:10: warning: 'runModalForDirectory:file:types:' is deprecated [-Wdeprecated-declarations]        result=[open runModalForDirectory:nil file:nil types:[NSArray arrayWithObjects:@"tif",@"png",@"psd",nil]];                ^/System/Library/Frameworks/AppKit.framework/Headers/NSOpenPanel.h:61:1: note: method 'runModalForDirectory:file:types:' declared here- (NSInteger)runModalForDirectory:(NSString *)path file:(NSString *)name types:(NSArray *)fileTypes NS_DEPRECATED_MAC(10_0, 10_6);^/Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m:325:9: warning: 'filenames' is deprecated [-Wdeprecated-declarations]        path=[[open filenames] objectAtIndex:0];               ^/System/Library/Frameworks/AppKit.framework/Headers/NSOpenPanel.h:43:1: note: method 'filenames' declared here- (NSArray *)filenames NS_DEPRECATED_MAC(10_0, 10_6);^10 warnings generated.10(36%IDEClangDiagnosticActivityLogMessage2@21"'MIN' macro redefined-384273725#18446744073709551615#0#5(2@86"In file included from /Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m:9:-384273725#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@77"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m0000000000000000^8#8#8#8#151#0#21"Clang LLVM 1.0 Notice--2@87"In file included from /Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.h:11:-384273725#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@77"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.h0000000000000000^10#8#10#8#176#0#21"Clang LLVM 1.0 Notice--2@86"In file included from /Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.h:7:-384273725#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@77"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.h0000000000000000^6#9#6#9#120#0#21"Clang LLVM 1.0 Notice--2@120"In file included from /Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/editmesh.h:14:-384273725#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@71"file://localhost/Users/roberto/Documents/Mi%20C/Standard%20C/editmesh.h0000000000000000^13#9#13#9#212#0#21"Clang LLVM 1.0 Notice--2@27"Previous definition is here-384273725#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@87"file://localhost/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h0000000000000000^456#12#456#12#18961#0#21"Clang LLVM 1.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@67"file://localhost/Users/roberto/Documents/Mi%20C/Standard%20C/mesh.h0000000000000000^11#8#11#8#316#0#29"Lexical or Preprocessor Issue--2@24"'filename' is deprecated-384273725#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@77"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m0000000000000000^141#28#141#28#3512#0#12"Deprecations--2@72"Passing 'const char *' to parameter of type 'char *' discards qualifiers-384273725#18446744073709551615#0#1(2@41"Passing argument to parameter 'path' here-384273725#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@67"file://localhost/Users/roberto/Documents/Mi%20C/Standard%20C/mesh.h0000000000000000^102#52#102#52#2842#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@77"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m0000000000000000^142#59#142#59#3592#0#14"Semantic Issue1(3@77"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m0000000000000000^142#59#142#80#3592#20#-2@48"'runModalForDirectory:file:types:' is deprecated-384273725#18446744073709551615#0#1(2@55"Method 'runModalForDirectory:file:types:' declared here-384273725#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@81"file://localhost/System/Library/Frameworks/AppKit.framework/Headers/NSOpenPanel.h0000000000000000^60#0#60#0#1907#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@77"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m0000000000000000^154#9#154#9#3813#0#12"Deprecations--2@25"'filenames' is deprecated-384273725#18446744073709551615#0#1(2@32"Method 'filenames' declared here-384273725#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@81"file://localhost/System/Library/Frameworks/AppKit.framework/Headers/NSOpenPanel.h0000000000000000^42#0#42#0#789#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@77"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m0000000000000000^158#8#158#8#4040#0#12"Deprecations--2@78"Incompatible pointer types passing 'float3D *' to parameter of type 'float **'-384273725#18446744073709551615#0#1(2@40"Passing argument to parameter 'dat' here-384273725#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@67"file://localhost/Users/roberto/Documents/Mi%20C/Standard%20C/mesh.h0000000000000000^103#39#103#39#2888#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@77"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m0000000000000000^164#35#164#35#4216#0#14"Semantic Issue1(3@77"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m0000000000000000^164#35#164#36#4216#0#-2@48"'runModalForDirectory:file:types:' is deprecated-384273725#18446744073709551615#0#1(2@55"Method 'runModalForDirectory:file:types:' declared here-384273725#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@81"file://localhost/System/Library/Frameworks/AppKit.framework/Headers/NSOpenPanel.h0000000000000000^60#0#60#0#1907#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@77"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m0000000000000000^297#9#297#9#7485#0#12"Deprecations--2@25"'filenames' is deprecated-384273725#18446744073709551615#0#1(2@32"Method 'filenames' declared here-384273725#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@81"file://localhost/System/Library/Frameworks/AppKit.framework/Headers/NSOpenPanel.h0000000000000000^42#0#42#0#789#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@77"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m0000000000000000^301#8#301#8#7619#0#12"Deprecations--2@48"'runModalForDirectory:file:types:' is deprecated-384273725#18446744073709551615#0#1(2@55"Method 'runModalForDirectory:file:types:' declared here-384273725#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@81"file://localhost/System/Library/Frameworks/AppKit.framework/Headers/NSOpenPanel.h0000000000000000^60#0#60#0#1907#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@77"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m0000000000000000^320#9#320#9#8055#0#12"Deprecations--2@25"'filenames' is deprecated-384273725#18446744073709551615#0#1(2@32"Method 'filenames' declared here-384273725#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@81"file://localhost/System/Library/Frameworks/AppKit.framework/Headers/NSOpenPanel.h0000000000000000^42#0#42#0#789#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@77"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m0000000000000000^324#8#324#8#8199#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@77"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m0000000000000000^2671"CompileC build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/MyDocument.o MyDocument.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberto/Applications/brainbits/m.EditMesh    setenv LANG en_US.US-ASCII    /Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/EditMesh.hmap -I/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/DerivedSources/i386 -I/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/DerivedSources -F/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug -include /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EditMesh_Prefix-bflscqtdxqjcspbdcifabchxlsmy/EditMesh_Prefix.pch -MMD -MT dependencies -MF /Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/MyDocument.d --serialize-diagnostics /Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/MyDocument.dia -c /Users/roberto/Applications/brainbits/m.EditMesh/MyDocument.m -o /Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/MyDocument.o36"16710E3C-E49E-47FE-8B35-8C79FBAFF377-
-
-CCompileC build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/MyMeshView.o /Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s384273725.109181
-e384273725.250501
-r1
-xCompileC
-xbuild/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/MyMeshView.o
-x/Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oIn file included from /Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.m:1:
-oIn file included from /Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.h:7:
-oIn file included from /Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/editmesh.h:14:
-o/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/mesh.h:12:9: warning: 'MIN' macro redefined
-o#define MIN(x,y)    (((x)<(y))?(x):(y))
-o        ^
-o/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:457:13: note: previous definition is here
-o    #define MIN(A,B)    ({ __typeof__(A) __a = (A); __typeof__(B) __b = (B); __a < __b ? __a : __b; })
-o            ^
-o/Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.m:674:8: warning: unused variable 'max' [-Wunused-variable]
-o        float   max,min;
-o                ^
-o/Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.m:674:12: warning: unused variable 'min' [-Wunused-variable]
-o        float   max,min;
-o                    ^
-o/Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.m:675:16: warning: unused variable 'c' [-Wunused-variable]
-o        unsigned char c[3];
-o                      ^
-o/Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.m:1115:48: warning: 'NSCalibratedBlackColorSpace' is deprecated [-Wdeprecated-declarations]
-o                                colorSpaceName:NSCalibratedBlackColorSpace
-o                                               ^
-o/Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.m:1132:6: warning: 'setRequiredFileType:' is deprecated [-Wdeprecated-declarations]
-o    [savePanel setRequiredFileType:@"tif"];
-o     ^
-o/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h:288:1: note: method 'setRequiredFileType:' declared here
-o- (void)setRequiredFileType:(NSString *)type NS_DEPRECATED_MAC(10_0, 10_6);
-o^
-o/Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.m:1137:29: warning: 'filename' is deprecated [-Wdeprecated-declarations]
-o        NSString *filename=[savePanel filename];
-o                            ^
-o/Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.m:1170:6: warning: 'setRequiredFileType:' is deprecated [-Wdeprecated-declarations]
-o    [savePanel setRequiredFileType:@"tif"];
-o     ^
-o/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h:288:1: note: method 'setRequiredFileType:' declared here
-o- (void)setRequiredFileType:(NSString *)type NS_DEPRECATED_MAC(10_0, 10_6);
-o^
-o/Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.m:1175:29: warning: 'filename' is deprecated [-Wdeprecated-declarations]
-o        NSString *filename=[savePanel filename];
-o                            ^
-o9 warnings generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.mae121c3d8de7b641^c51e423d8de7b641^-2720"In file included from /Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.m:1:In file included from /Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.h:7:In file included from /Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/editmesh.h:14:/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/mesh.h:12:9: warning: 'MIN' macro redefined#define MIN(x,y)    (((x)<(y))?(x):(y))        ^/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:457:13: note: previous definition is here    #define MIN(A,B)    ({ __typeof__(A) __a = (A); __typeof__(B) __b = (B); __a < __b ? __a : __b; })            ^/Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.m:674:8: warning: unused variable 'max' [-Wunused-variable]        float   max,min;                ^/Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.m:674:12: warning: unused variable 'min' [-Wunused-variable]        float   max,min;                    ^/Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.m:675:16: warning: unused variable 'c' [-Wunused-variable]        unsigned char c[3];                      ^/Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.m:1115:48: warning: 'NSCalibratedBlackColorSpace' is deprecated [-Wdeprecated-declarations]                                colorSpaceName:NSCalibratedBlackColorSpace                                               ^/Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.m:1132:6: warning: 'setRequiredFileType:' is deprecated [-Wdeprecated-declarations]    [savePanel setRequiredFileType:@"tif"];     ^/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h:288:1: note: method 'setRequiredFileType:' declared here- (void)setRequiredFileType:(NSString *)type NS_DEPRECATED_MAC(10_0, 10_6);^/Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.m:1137:29: warning: 'filename' is deprecated [-Wdeprecated-declarations]        NSString *filename=[savePanel filename];                            ^/Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.m:1170:6: warning: 'setRequiredFileType:' is deprecated [-Wdeprecated-declarations]    [savePanel setRequiredFileType:@"tif"];     ^/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h:288:1: note: method 'setRequiredFileType:' declared here- (void)setRequiredFileType:(NSString *)type NS_DEPRECATED_MAC(10_0, 10_6);^/Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.m:1175:29: warning: 'filename' is deprecated [-Wdeprecated-declarations]        NSString *filename=[savePanel filename];                            ^9 warnings generated.9(36%IDEClangDiagnosticActivityLogMessage2@21"'MIN' macro redefined-384273725#18446744073709551615#0#4(2@86"In file included from /Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.m:1:-384273725#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@77"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.m0000000000000000^0#8#0#8#8#0#21"Clang LLVM 1.0 Notice--2@86"In file included from /Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.h:7:-384273725#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@77"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.h0000000000000000^6#9#6#9#120#0#21"Clang LLVM 1.0 Notice--2@120"In file included from /Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/editmesh.h:14:-384273725#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@71"file://localhost/Users/roberto/Documents/Mi%20C/Standard%20C/editmesh.h0000000000000000^13#9#13#9#212#0#21"Clang LLVM 1.0 Notice--2@27"Previous definition is here-384273725#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@87"file://localhost/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h0000000000000000^456#12#456#12#18961#0#21"Clang LLVM 1.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@67"file://localhost/Users/roberto/Documents/Mi%20C/Standard%20C/mesh.h0000000000000000^11#8#11#8#316#0#29"Lexical or Preprocessor Issue--2@21"Unused variable 'max'-384273725#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@77"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.m0000000000000000^673#7#673#7#18363#0#19"Unused Entity Issue--2@21"Unused variable 'min'-384273725#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@77"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.m0000000000000000^673#11#673#11#18367#0#19"Unused Entity Issue--2@19"Unused variable 'c'-384273725#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@77"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.m0000000000000000^674#15#674#15#18387#0#19"Unused Entity Issue--2@43"'NSCalibratedBlackColorSpace' is deprecated-384273725#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@77"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.m0000000000000000^1114#47#1114#47#29074#0#12"Deprecations--2@36"'setRequiredFileType:' is deprecated-384273725#18446744073709551615#0#1(2@43"Method 'setRequiredFileType:' declared here-384273725#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@81"file://localhost/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h0000000000000000^287#0#287#0#14571#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@77"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.m0000000000000000^1131#5#1131#5#29599#0#12"Deprecations--2@24"'filename' is deprecated-384273725#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@77"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.m0000000000000000^1136#28#1136#28#29784#0#12"Deprecations--2@36"'setRequiredFileType:' is deprecated-384273725#18446744073709551615#0#1(2@43"Method 'setRequiredFileType:' declared here-384273725#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@81"file://localhost/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h0000000000000000^287#0#287#0#14571#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@77"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.m0000000000000000^1169#5#1169#5#31015#0#12"Deprecations--2@24"'filename' is deprecated-384273725#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@77"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.m0000000000000000^1174#28#1174#28#31200#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@77"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.m0000000000000000^2671"CompileC build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/MyMeshView.o MyMeshView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberto/Applications/brainbits/m.EditMesh    setenv LANG en_US.US-ASCII    /Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/EditMesh.hmap -I/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/DerivedSources/i386 -I/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/DerivedSources -F/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug -include /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EditMesh_Prefix-bflscqtdxqjcspbdcifabchxlsmy/EditMesh_Prefix.pch -MMD -MT dependencies -MF /Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/MyMeshView.d --serialize-diagnostics /Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/MyMeshView.dia -c /Users/roberto/Applications/brainbits/m.EditMesh/MyMeshView.m -o /Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/MyMeshView.o36"FB6DD92C-30B0-4DE3-A085-ABC7B0BC7C30-
-
-CCompileC build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/MyTextView.o /Users/roberto/Applications/brainbits/m.EditMesh/MyTextView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s384273725.046821
-e384273725.126494
-r1
-xCompileC
-xbuild/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/MyTextView.o
-x/Users/roberto/Applications/brainbits/m.EditMesh/MyTextView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/roberto/Applications/brainbits/m.EditMesh/MyTextView.m:26:4: warning: instance method '-applyScript:' not found (return type defaults to 'id')
-o                        [app applyScript:s];
-o                        ^~~~~~~~~~~~~~~~~~~
-o/Users/roberto/Applications/brainbits/m.EditMesh/MyTextView.m:110:3: warning: 'writeToFile:atomically:' is deprecated [-Wdeprecated-declarations]
-o        [[self string] writeToFile:path atomically:YES];
-o         ^
-o/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:351:1: note: method 'writeToFile:atomically:' declared here
-o- (BOOL)writeToFile:(NSString *)path atomically:(BOOL)useAuxiliaryFile NS_DEPRECATED(10_0, 10_4, 2_0, 2_0);
-o^
-o2 warnings generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/roberto/Applications/brainbits/m.EditMesh/MyTextView.mc2150c3d8de7b641^e36e203d8de7b641^-712"/Users/roberto/Applications/brainbits/m.EditMesh/MyTextView.m:26:4: warning: instance method '-applyScript:' not found (return type defaults to 'id')                        [app applyScript:s];                        ^~~~~~~~~~~~~~~~~~~/Users/roberto/Applications/brainbits/m.EditMesh/MyTextView.m:110:3: warning: 'writeToFile:atomically:' is deprecated [-Wdeprecated-declarations]        [[self string] writeToFile:path atomically:YES];         ^/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:351:1: note: method 'writeToFile:atomically:' declared here- (BOOL)writeToFile:(NSString *)path atomically:(BOOL)useAuxiliaryFile NS_DEPRECATED(10_0, 10_4, 2_0, 2_0);^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@72"Instance method '-applyScript:' not found (return type defaults to 'id')-384273725#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@77"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/MyTextView.m0000000000000000^25#3#25#3#616#0#14"Semantic Issue1(3@77"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/MyTextView.m0000000000000000^25#3#25#22#616#18#-2@39"'writeToFile:atomically:' is deprecated-384273725#18446744073709551615#0#1(2@46"Method 'writeToFile:atomically:' declared here-384273725#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@82"file://localhost/System/Library/Frameworks/Foundation.framework/Headers/NSString.h0000000000000000^350#0#350#0#24019#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@77"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/MyTextView.m0000000000000000^109#2#109#2#2525#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@77"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/MyTextView.m0000000000000000^2671"CompileC build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/MyTextView.o MyTextView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberto/Applications/brainbits/m.EditMesh    setenv LANG en_US.US-ASCII    /Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/EditMesh.hmap -I/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/DerivedSources/i386 -I/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/DerivedSources -F/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug -include /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EditMesh_Prefix-bflscqtdxqjcspbdcifabchxlsmy/EditMesh_Prefix.pch -MMD -MT dependencies -MF /Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/MyTextView.d --serialize-diagnostics /Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/MyTextView.dia -c /Users/roberto/Applications/brainbits/m.EditMesh/MyTextView.m -o /Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/MyTextView.o36"3712485C-3244-48A0-8C1C-436B58180C5A-
-
-CCompileC build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/Trackball.o /Users/roberto/Applications/brainbits/m.EditMesh/Trackball.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s384273725.099910
-e384273725.174413
-r1
-xCompileC
-xbuild/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/Trackball.o
-x/Users/roberto/Applications/brainbits/m.EditMesh/Trackball.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/roberto/Applications/brainbits/m.EditMesh/Trackball.m:112:5: warning: instance method '-rotateBy:' not found (return type defaults to 'id')
-o    [sender rotateBy:rot];
-o    ^~~~~~~~~~~~~~~~~~~~~
-o1 warning generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/roberto/Applications/brainbits/m.EditMesh/Trackball.m4ab3193d8de7b641^92af2c3d8de7b641^-221"/Users/roberto/Applications/brainbits/m.EditMesh/Trackball.m:112:5: warning: instance method '-rotateBy:' not found (return type defaults to 'id')    [sender rotateBy:rot];    ^~~~~~~~~~~~~~~~~~~~~1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@69"Instance method '-rotateBy:' not found (return type defaults to 'id')-384273725#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@76"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/Trackball.m0000000000000000^111#4#111#4#4194#0#14"Semantic Issue1(3@76"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/Trackball.m0000000000000000^111#4#111#25#4194#20#-0#0#0#-19%DVTDocumentLocation4@76"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/Trackball.m0000000000000000^2665"CompileC build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/Trackball.o Trackball.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberto/Applications/brainbits/m.EditMesh    setenv LANG en_US.US-ASCII    /Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/EditMesh.hmap -I/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/DerivedSources/i386 -I/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/DerivedSources -F/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug -include /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EditMesh_Prefix-bflscqtdxqjcspbdcifabchxlsmy/EditMesh_Prefix.pch -MMD -MT dependencies -MF /Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/Trackball.d --serialize-diagnostics /Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/Trackball.dia -c /Users/roberto/Applications/brainbits/m.EditMesh/Trackball.m -o /Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/Trackball.o36"72C254D7-AC09-4303-A653-EFCE98593E41-
-
-CCompileC build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/colourmap.o /Users/roberto/Applications/brainbits/m.EditMesh/colourmap.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s384273725.046874
-e384273725.107843
-r1
-xCompileC
-xbuild/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/colourmap.o
-x/Users/roberto/Applications/brainbits/m.EditMesh/colourmap.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/roberto/Applications/brainbits/m.EditMesh/colourmap.c93180c3d8de7b641^919d1b3d8de7b641^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/colourmap.c0000000000000000^2319"CompileC build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/colourmap.o colourmap.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberto/Applications/brainbits/m.EditMesh    setenv LANG en_US.US-ASCII    /Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -fasm-blocks -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -I/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/EditMesh.hmap -I/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/DerivedSources/i386 -I/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/DerivedSources -F/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug -include /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EditMesh_Prefix-edoncyfbantuhoaafesmxeiuactl/EditMesh_Prefix.pch -MMD -MT dependencies -MF /Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/colourmap.d --serialize-diagnostics /Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/colourmap.dia -c /Users/roberto/Applications/brainbits/m.EditMesh/colourmap.c -o /Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/colourmap.o36"84F0895B-FE59-4542-A134-6919469E6FCA-
-
-CCompileC build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/editmesh.o "/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/editmesh.c" normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s384273725.046441
-e384273725.226874
-r1
-xCompileC
-xbuild/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/editmesh.o
-x/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/editmesh.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/editmesh.c:1443:35: warning: unused variable 'pbc' [-Wunused-variable]
-o    float3D     *p,*p1,*C,*C1,pab,pbc,pca,pabc;
-o                                  ^
-o/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/editmesh.c:1443:43: warning: unused variable 'pabc' [-Wunused-variable]
-o    float3D     *p,*p1,*C,*C1,pab,pbc,pca,pabc;
-o                                          ^
-o2 warnings generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/editmesh.cf0fb0b3d8de7b641^8c143a3d8de7b641^-509"/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/editmesh.c:1443:35: warning: unused variable 'pbc' [-Wunused-variable]    float3D     *p,*p1,*C,*C1,pab,pbc,pca,pabc;                                  ^/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/editmesh.c:1443:43: warning: unused variable 'pabc' [-Wunused-variable]    float3D     *p,*p1,*C,*C1,pab,pbc,pca,pabc;                                          ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@21"Unused variable 'pbc'-384273725#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@71"file://localhost/Users/roberto/Documents/Mi%20C/Standard%20C/editmesh.c0000000000000000^1442#34#1442#34#42844#0#19"Unused Entity Issue--2@22"Unused variable 'pabc'-384273725#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@71"file://localhost/Users/roberto/Documents/Mi%20C/Standard%20C/editmesh.c0000000000000000^1442#42#1442#42#42852#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@114"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi%20C/Standard%20C/editmesh.c0000000000000000^2387"CompileC build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/editmesh.o "../../../Documents/Mi C/Standard C/editmesh.c" normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberto/Applications/brainbits/m.EditMesh    setenv LANG en_US.US-ASCII    /Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -fasm-blocks -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -I/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/EditMesh.hmap -I/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/DerivedSources/i386 -I/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/DerivedSources -F/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug -include /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EditMesh_Prefix-edoncyfbantuhoaafesmxeiuactl/EditMesh_Prefix.pch -MMD -MT dependencies -MF /Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/editmesh.d --serialize-diagnostics /Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/editmesh.dia -c "/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/editmesh.c" -o /Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/editmesh.o36"055AF8FB-53FA-4C37-9DBA-4F13EA3EEB41-
-
-CCompileC build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/main.o /Users/roberto/Applications/brainbits/m.EditMesh/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s384273725.046954
-e384273725.098631
-r1
-xCompileC
-xbuild/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/main.o
-x/Users/roberto/Applications/brainbits/m.EditMesh/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/roberto/Applications/brainbits/m.EditMesh/main.mc91f0c3d8de7b641^5f42193d8de7b641^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/main.m0000000000000000^2635"CompileC build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/main.o main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberto/Applications/brainbits/m.EditMesh    setenv LANG en_US.US-ASCII    /Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/EditMesh.hmap -I/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/DerivedSources/i386 -I/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/DerivedSources -F/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug -include /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EditMesh_Prefix-bflscqtdxqjcspbdcifabchxlsmy/EditMesh_Prefix.pch -MMD -MT dependencies -MF /Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/main.dia -c /Users/roberto/Applications/brainbits/m.EditMesh/main.m -o /Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/main.o36"11719BFA-6A0B-4152-8704-EFFE11A91FA5-
-
-CCompileC build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/math3D.o "/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/math3D.c" normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s384273725.045974
-e384273725.176139
-r1
-xCompileC
-xbuild/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/math3D.o
-x/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/math3D.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/math3D.ce3df0b3d8de7b641^29202d3d8de7b641^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi%20C/Standard%20C/math3D.c0000000000000000^2375"CompileC build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/math3D.o "../../../Documents/Mi C/Standard C/math3D.c" normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberto/Applications/brainbits/m.EditMesh    setenv LANG en_US.US-ASCII    /Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -fasm-blocks -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -I/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/EditMesh.hmap -I/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/DerivedSources/i386 -I/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/DerivedSources -F/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug -include /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EditMesh_Prefix-edoncyfbantuhoaafesmxeiuactl/EditMesh_Prefix.pch -MMD -MT dependencies -MF /Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/math3D.d --serialize-diagnostics /Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/math3D.dia -c "/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/math3D.c" -o /Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/math3D.o36"030F245F-517D-493A-B2F8-B15D6BE7E5D1-
-
-CCompileC build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/mesh.o "/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/mesh.c" normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s384273725.045966
-e384273725.223304
-r1
-xCompileC
-xbuild/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/mesh.o
-x/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/mesh.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/mesh.cc2df0b3d8de7b641^8c2c393d8de7b641^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi%20C/Standard%20C/mesh.c0000000000000000^2363"CompileC build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/mesh.o "../../../Documents/Mi C/Standard C/mesh.c" normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberto/Applications/brainbits/m.EditMesh    setenv LANG en_US.US-ASCII    /Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -fasm-blocks -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -I/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/EditMesh.hmap -I/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/DerivedSources/i386 -I/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/DerivedSources -F/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug -include /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EditMesh_Prefix-edoncyfbantuhoaafesmxeiuactl/EditMesh_Prefix.pch -MMD -MT dependencies -MF /Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/mesh.d --serialize-diagnostics /Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/mesh.dia -c "/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/mesh.c" -o /Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/mesh.o36"8C074ABE-861C-49C9-AD54-405F195C3606-
-
-CCompileC build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/util.o "/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/util.c" normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s384273725.046657
-e384273725.108129
-r1
-xCompileC
-xbuild/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/util.o
-x/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/util.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/util.c31080c3d8de7b641^fbe51b3d8de7b641^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi%20C/Standard%20C/util.c0000000000000000^2363"CompileC build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/util.o "../../../Documents/Mi C/Standard C/util.c" normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberto/Applications/brainbits/m.EditMesh    setenv LANG en_US.US-ASCII    /Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -fasm-blocks -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -I/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/EditMesh.hmap -I/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/DerivedSources/i386 -I/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/DerivedSources -F/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug -include /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EditMesh_Prefix-edoncyfbantuhoaafesmxeiuactl/EditMesh_Prefix.pch -MMD -MT dependencies -MF /Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/util.d --serialize-diagnostics /Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/util.dia -c "/Users/roberto/Applications/brainbits/m.EditMesh/../../../Documents/Mi C/Standard C/util.c" -o /Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/util.o36"6AA653D4-E44B-4517-8F3D-83B221BC2F35-
-
-CCopyStringsFile /Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/EditMesh.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-s384273724.729042
-e384273724.734913
-r1
-xCopyStringsFile
-x/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/EditMesh.app/Contents/Resources/English.lproj/InfoPlist.strings
-xEnglish.lproj/InfoPlist.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy English.lproj/InfoPlist.stringseeafba3c8de7b641^9623bc3c8de7b641^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/English.lproj/InfoPlist.strings0000000000000000^413"CopyStringsFile build/Debug/EditMesh.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings    cd /Users/roberto/Applications/brainbits/m.EditMesh    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/EditMesh.app/Contents/Resources/English.lproj -- English.lproj/InfoPlist.strings36"322A90CE-49C1-4D75-991F-D7B63226C84B-
-
-CCpResource English.lproj/Credits.rtf build/Debug/EditMesh.app/Contents/Resources/English.lproj/Credits.rtf
-s384273724.729033
-e384273724.732472
-r1
-xCpResource
-xEnglish.lproj/Credits.rtf
-xbuild/Debug/EditMesh.app/Contents/Resources/English.lproj/Credits.rtf
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy build/Debug/EditMesh.app/Contents/Resources/English.lproj/Credits.rtf29aeba3c8de7b641^f183bb3c8de7b641^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/EditMesh.app/Contents/Resources/English.lproj/Credits.rtf000000000080d041^457"CpResource English.lproj/Credits.rtf build/Debug/EditMesh.app/Contents/Resources/English.lproj/Credits.rtf    cd /Users/roberto/Applications/brainbits/m.EditMesh    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/roberto/Applications/brainbits/m.EditMesh/English.lproj/Credits.rtf /Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/EditMesh.app/Contents/Resources/English.lproj36"C28A3E1C-7477-4E9F-8D05-AAA1D2C45F07-
-
-CLd /Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/EditMesh.app/Contents/MacOS/EditMesh normal i386
-s384273725.257258
-e384273725.293439
-r1
-xLd
-x/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/EditMesh.app/Contents/MacOS/EditMesh
-xnormal
-xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Link /Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/EditMesh.app/Contents/MacOS/EditMesheaeb413d8de7b641^9f1e4b3d8de7b641^---0#0#0#--666"Ld build/Debug/EditMesh.app/Contents/MacOS/EditMesh normal i386    cd /Users/roberto/Applications/brainbits/m.EditMesh    /Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -L/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug -F/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug -filelist /Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/Objects-normal/i386/EditMesh.LinkFileList -fobjc-link-runtime -framework Cocoa -framework OpenGL -o /Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/EditMesh.app/Contents/MacOS/EditMesh36"0D2ED405-5624-4C59-A0BE-73CB9148913D-
-
-CProcessInfoPlistFile /Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/EditMesh.app/Contents/Info.plist Info.plist
-s384273724.718233
-e384273724.720853
-r1
-xProcessInfoPlistFile
-x/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/EditMesh.app/Contents/Info.plist
-xInfo.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist9be8b73c8de7b641^b58cb83c8de7b641^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/Info.plist0000000000000000^411"ProcessInfoPlistFile build/Debug/EditMesh.app/Contents/Info.plist Info.plist    cd /Users/roberto/Applications/brainbits/m.EditMesh    builtin-infoPlistUtility Info.plist -genpkginfo /Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/EditMesh.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/EditMesh.app/Contents/Info.plist36"D62AAE5C-5D6C-4773-9E5E-385EA8B68B39-
-
-CProcessPCH /Users/roberto/Library/Developer/Xcode/DerivedData/EditMesh-alurjtdedjdglecdivnsmagjtmll/Index/PrecompiledHeaders/EditMesh_Prefix-fbremoedrzpaejfgvugouwhwywgg_ast/EditMesh_Prefix.pch.pth EditMesh_Prefix.pch normal i386 c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/roberto/Library/Developer/Xcode/DerivedData/EditMesh-alurjtdedjdglecdivnsmagjtmll/Index/PrecompiledHeaders/EditMesh_Prefix-gdzmhscemnqjwzhhmtiwyoiqeapk_ast/EditMesh_Prefix.pch.pth EditMesh_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EditMesh_Prefix-bflscqtdxqjcspbdcifabchxlsmy/EditMesh_Prefix.pch.pth EditMesh_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s384273558.604736
-e384273559.236019
-r1
-xProcessPCH
-x/var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EditMesh_Prefix-bflscqtdxqjcspbdcifabchxlsmy/EditMesh_Prefix.pch.pth
-xEditMesh_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Precompile EditMesh_Prefix.pchbce99a968ce7b641^f06b3c978ce7b641^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/EditMesh_Prefix.pch0000000000000000^2727"ProcessPCH /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EditMesh_Prefix-bflscqtdxqjcspbdcifabchxlsmy/EditMesh_Prefix.pch.pth EditMesh_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberto/Applications/brainbits/m.EditMesh    setenv LANG en_US.US-ASCII    /Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/EditMesh.hmap -I/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/DerivedSources/i386 -I/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/DerivedSources -F/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug --serialize-diagnostics /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EditMesh_Prefix-bflscqtdxqjcspbdcifabchxlsmy/EditMesh_Prefix.pch.dia -c /Users/roberto/Applications/brainbits/m.EditMesh/EditMesh_Prefix.pch -o /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EditMesh_Prefix-bflscqtdxqjcspbdcifabchxlsmy/EditMesh_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EditMesh_Prefix-bflscqtdxqjcspbdcifabchxlsmy/EditMesh_Prefix.pch.d36"7DA61B66-E92D-44C6-B6C4-D10BA7D284C2-
-
-CProcessPCH /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EditMesh_Prefix-edoncyfbantuhoaafesmxeiuactl/EditMesh_Prefix.pch.pth EditMesh_Prefix.pch normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s384273558.604735
-e384273558.628833
-r1
-xProcessPCH
-x/var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EditMesh_Prefix-edoncyfbantuhoaafesmxeiuactl/EditMesh_Prefix.pch.pth
-xEditMesh_Prefix.pch
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Precompile EditMesh_Prefix.pch92e79a968ce7b641^33fba0968ce7b641^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/EditMesh_Prefix.pch0000000000000000^2381"ProcessPCH /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EditMesh_Prefix-edoncyfbantuhoaafesmxeiuactl/EditMesh_Prefix.pch.pth EditMesh_Prefix.pch normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberto/Applications/brainbits/m.EditMesh    setenv LANG en_US.US-ASCII    /Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c-header -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -fasm-blocks -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -I/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/EditMesh.hmap -I/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/DerivedSources/i386 -I/Users/roberto/Applications/brainbits/m.EditMesh/build/EditMesh.build/Debug/EditMesh.build/DerivedSources -F/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug --serialize-diagnostics /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EditMesh_Prefix-edoncyfbantuhoaafesmxeiuactl/EditMesh_Prefix.pch.dia -c /Users/roberto/Applications/brainbits/m.EditMesh/EditMesh_Prefix.pch -o /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EditMesh_Prefix-edoncyfbantuhoaafesmxeiuactl/EditMesh_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EditMesh_Prefix-edoncyfbantuhoaafesmxeiuactl/EditMesh_Prefix.pch.d36"C69E12F4-F6CD-4D69-9974-CE7755AC1DF6-
-
-CStripNIB /Users/roberto/Applications/brainbits/m.EditMesh/English.lproj/MainMenu.nib
-s384273724.729038
-e384273725.030758
-r1
-xStripNIB
-x/Users/roberto/Applications/brainbits/m.EditMesh/English.lproj/MainMenu.nib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Processing /Users/roberto/Applications/brainbits/m.EditMesh/English.lproj/MainMenu.nib3aaeba3c8de7b641^e3e3073d8de7b641^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/English.lproj/MainMenu.nib/0000000000000000^510"StripNIB English.lproj/MainMenu.nib    cd /Users/roberto/Applications/brainbits/m.EditMesh    setenv XCODE_DEVELOPER_USR_PATH /Applications/_Programming/Xcode.app/Contents/Developer/usr/bin/..    /Applications/_Programming/Xcode.app/Contents/Developer/usr/bin/ibtool --strip /Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/EditMesh.app/Contents/Resources/English.lproj/MainMenu.nib --output-format human-readable-text /Users/roberto/Applications/brainbits/m.EditMesh/English.lproj/MainMenu.nib36"81B421DD-F4D8-4290-91AC-37CED5AD620B-
-
-CStripNIB /Users/roberto/Applications/brainbits/m.EditMesh/English.lproj/MyDocument.nib
-s384273724.729026
-e384273725.031262
-r1
-xStripNIB
-x/Users/roberto/Applications/brainbits/m.EditMesh/English.lproj/MyDocument.nib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Processing /Users/roberto/Applications/brainbits/m.EditMesh/English.lproj/MyDocument.nibbcafba3c8de7b641^1d01083d8de7b641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/roberto/Applications/brainbits/m.EditMesh/English.lproj/MyDocument.nib/0000000000000000^516"StripNIB English.lproj/MyDocument.nib    cd /Users/roberto/Applications/brainbits/m.EditMesh    setenv XCODE_DEVELOPER_USR_PATH /Applications/_Programming/Xcode.app/Contents/Developer/usr/bin/..    /Applications/_Programming/Xcode.app/Contents/Developer/usr/bin/ibtool --strip /Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/EditMesh.app/Contents/Resources/English.lproj/MyDocument.nib --output-format human-readable-text /Users/roberto/Applications/brainbits/m.EditMesh/English.lproj/MyDocument.nib36"9671E111-59B9-4B4B-9AD0-929C398CF183-
-
-CTouch /Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/EditMesh.app
-s384273725.301499
-e384273725.306558
-r1
-xTouch
-x/Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/EditMesh.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Touch /Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/EditMesh.app2e3a4d3d8de7b641^ea7a4e3d8de7b641^---0#0#0#--183"Touch build/Debug/EditMesh.app    cd /Users/roberto/Applications/brainbits/m.EditMesh    /usr/bin/touch -c /Users/roberto/Applications/brainbits/m.EditMesh/build/Debug/EditMesh.app36"D1DF0FFB-70E5-430F-900B-38F461284294-
-
