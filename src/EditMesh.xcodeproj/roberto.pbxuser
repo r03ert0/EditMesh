@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 628618A80927711D0060DCC8 /* EditMesh */;
+		activeSDKPreference = macosx10.5;
+		activeTarget = 8D15AC270486D014006FF6A4 /* EditMesh */;
+		addToTargets = (
+			8D15AC270486D014006FF6A4 /* EditMesh */,
+		);
+		breakpoints = (
+			62982A1A101DE4C6000077C7 /* mesh.c:450 */,
+			62C0023C106CF4090022DAC4 /* MyDocument.m:620 */,
+			62C00247106CF7E90022DAC4 /* MyDocument.m:615 */,
+			62878296129ADA2B00E922A7 /* mesh.c:995 */,
+			6287829D129ADA5E00E922A7 /* mesh.c:1004 */,
+			62BC190813D98DB2001B3AB0 /* editmesh.c:1332 */,
+			62BC194D13D9BCA7001B3AB0 /* editmesh.c:1317 */,
+			62BC195313D9BCC4001B3AB0 /* editmesh.c:1326 */,
+			6253A3E41573CD75003B9844 /* MyDocument.m:1211 */,
+			6253A4021573CEFF003B9844 /* MyDocument.m:1239 */,
+			6253A4311573FBC2003B9844 /* MyMeshView.m:1005 */,
+		);
+		codeSenseManager = 628618C0092771320060DCC8 /* Code sense */;
+		executables = (
+			628618A80927711D0060DCC8 /* EditMesh */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					210,
+					20,
+					110,
+					109,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					300,
+					200,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					400,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					819,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					526,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 383764071;
+			PBXWorkspaceStateSaveDate = 383764071;
+		};
+		perUserProjectItems = {
+			6207231B158F714B00657FE2 /* PBXTextBookmark */ = 6207231B158F714B00657FE2 /* PBXTextBookmark */;
+			6224687C147A9621009F7C18 /* PBXTextBookmark */ = 6224687C147A9621009F7C18 /* PBXTextBookmark */;
+			623FD76316DFC66D00AE0013 /* PBXTextBookmark */ = 623FD76316DFC66D00AE0013 /* PBXTextBookmark */;
+			6253A3DE1573CD26003B9844 /* PBXTextBookmark */ = 6253A3DE1573CD26003B9844 /* PBXTextBookmark */;
+			6253A4221573FAD0003B9844 /* PBXTextBookmark */ = 6253A4221573FAD0003B9844 /* PBXTextBookmark */;
+			6255411611C4BA86000E9FC1 /* PBXTextBookmark */ = 6255411611C4BA86000E9FC1 /* PBXTextBookmark */;
+			628EB77113DD9CFB0050CEA3 /* PBXTextBookmark */ = 628EB77113DD9CFB0050CEA3 /* PBXTextBookmark */;
+			628EB7CD13DDA13B0050CEA3 /* PBXTextBookmark */ = 628EB7CD13DDA13B0050CEA3 /* PBXTextBookmark */;
+			629C3C941253C58100C54BB2 /* PBXTextBookmark */ = 629C3C941253C58100C54BB2 /* PBXTextBookmark */;
+			629C3C961253C58100C54BB2 /* PBXTextBookmark */ = 629C3C961253C58100C54BB2 /* PBXTextBookmark */;
+			629DE7AD167B35C300428401 /* PBXTextBookmark */ = 629DE7AD167B35C300428401 /* PBXTextBookmark */;
+			629DE7AF167B35C300428401 /* PBXTextBookmark */ = 629DE7AF167B35C300428401 /* PBXTextBookmark */;
+			62B471A30F4180DA0083DF4A /* PBXTextBookmark */ = 62B471A30F4180DA0083DF4A /* PBXTextBookmark */;
+			62BE434910A07C4500A9A8E0 /* PBXTextBookmark */ = 62BE434910A07C4500A9A8E0 /* PBXTextBookmark */;
+			62BE436510A08CE500A9A8E0 /* PBXTextBookmark */ = 62BE436510A08CE500A9A8E0 /* PBXTextBookmark */;
+			62DBF302164FBC5700C74997 /* PBXTextBookmark */ = 62DBF302164FBC5700C74997 /* PBXTextBookmark */;
+			62E4558212A0E419008B008E /* PBXTextBookmark */ = 62E4558212A0E419008B008E /* PBXTextBookmark */;
+			62FBD0601560150A0073A55C /* PBXTextBookmark */ = 62FBD0601560150A0073A55C /* PBXTextBookmark */;
+		};
+		sourceControlManager = 628618BF092771320060DCC8 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1356, 16354}}";
+			sepNavSelRange = "{24502, 0}";
+			sepNavVisRange = "{23829, 830}";
+			sepNavVisRect = "{{0, 322}, {705, 584}}";
+			sepNavWindowFrame = "{{436, -428}, {604, 778}}";
+		};
+	};
+	2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1137, 582}}";
+			sepNavSelRange = "{926, 0}";
+			sepNavVisRange = "{0, 932}";
+			sepNavVisRect = "{{0, 0}, {705, 584}}";
+		};
+	};
+	2A37F4B0FDCFA73011CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1555, 463}}";
+			sepNavSelRange = "{197, 0}";
+			sepNavVisRect = "{{0, 0}, {1555, 463}}";
+		};
+	};
+	6201740D0D8559A5009917BF /* MyTextView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {744, 645}}";
+			sepNavSelRange = "{135, 59}";
+			sepNavVisRange = "{0, 199}";
+			sepNavVisRect = "{{0, 0}, {696, 585}}";
+		};
+	};
+	6201740E0D8559A5009917BF /* MyTextView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {744, 1582}}";
+			sepNavSelRange = "{205, 2147}";
+			sepNavVisRange = "{1564, 1016}";
+			sepNavVisRect = "{{0, 125}, {696, 585}}";
+		};
+	};
+	6207231B158F714B00657FE2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
+		name = "MyDocument.m: 1178";
+		rLen = 0;
+		rLoc = 24502;
+		rType = 0;
+		vrLen = 830;
+		vrLoc = 23829;
+	};
+	6224687C147A9621009F7C18 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 626E13D709891A2E008C58B0 /* math3D.h */;
+		name = "math3D.h: 75";
+		rLen = 0;
+		rLoc = 1115;
+		rType = 0;
+		vrLen = 1198;
+		vrLoc = 898;
+	};
+	623FD76316DFC66D00AE0013 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 62AD36AF0C55E395009892F6 /* MyMeshView.m */;
+		name = "MyMeshView.m: 232";
+		rLen = 0;
+		rLoc = 8359;
+		rType = 0;
+		vrLen = 1332;
+		vrLoc = 7961;
+	};
+	6253A3DE1573CD26003B9844 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */;
+		name = "MyDocument.h: 36";
+		rLen = 0;
+		rLoc = 926;
+		rType = 0;
+		vrLen = 932;
+		vrLoc = 0;
+	};
+	6253A3E41573CD75003B9844 /* MyDocument.m:1211 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
+		functionName = "-addMesh:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1211;
+		modificationTime = 359985644.548759;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	6253A4021573CEFF003B9844 /* MyDocument.m:1239 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
+		functionName = "-addMesh:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1239;
+		modificationTime = 359985644.548817;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	6253A4221573FAD0003B9844 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 628618C1092771990060DCC8 /* MyMeshView.h */;
+		name = "MyMeshView.h: 93";
+		rLen = 0;
+		rLoc = 2070;
+		rType = 0;
+		vrLen = 1251;
+		vrLoc = 1119;
+	};
+	6253A4311573FBC2003B9844 /* MyMeshView.m:1005 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 62AD36AF0C55E395009892F6 /* MyMeshView.m */;
+		functionName = "-spin:nframes:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1005;
+		modificationTime = 359985644.548866;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	6255411611C4BA86000E9FC1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6201740E0D8559A5009917BF /* MyTextView.m */;
+		name = "MyTextView.m: 13";
+		rLen = 2147;
+		rLoc = 205;
+		rType = 0;
+		vrLen = 1016;
+		vrLoc = 1564;
+	};
+	626E13770988F063008C58B0 /* mesh.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {982, 36608}}";
+			sepNavSelRange = "{1836, 1337}";
+			sepNavVisRange = "{1979, 1273}";
+			sepNavVisRect = "{{0, 5625}, {809, 272}}";
+		};
+	};
+	626E13780988F063008C58B0 /* mesh.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {982, 2730}}";
+			sepNavSelRange = "{2933, 0}";
+			sepNavVisRange = "{2018, 1568}";
+			sepNavVisRect = "{{0, 0}, {705, 584}}";
+		};
+	};
+	626E13D609891A2E008C58B0 /* math3D.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {985, 19890}}";
+			sepNavSelRange = "{267, 113}";
+			sepNavVisRange = "{139, 777}";
+			sepNavVisRect = "{{0, 304}, {696, 585}}";
+		};
+	};
+	626E13D709891A2E008C58B0 /* math3D.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {985, 2509}}";
+			sepNavSelRange = "{1115, 0}";
+			sepNavVisRange = "{898, 1198}";
+			sepNavVisRect = "{{0, 0}, {705, 584}}";
+		};
+	};
+	626E13F809891ACF008C58B0 /* editmesh.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1092, 50713}}";
+			sepNavSelRange = "{40367, 9}";
+			sepNavVisRange = "{45628, 1608}";
+			sepNavVisRect = "{{0, 29330}, {705, 584}}";
+		};
+	};
+	626E13F909891ACF008C58B0 /* editmesh.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {887, 1651}}";
+			sepNavSelRange = "{3534, 28}";
+			sepNavVisRange = "{2611, 1548}";
+			sepNavVisRect = "{{0, 0}, {705, 584}}";
+		};
+	};
+	627E2F9309FA1CC5003A6515 /* colourmap.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {8264, 742}}";
+			sepNavSelRange = "{23688, 0}";
+			sepNavVisRange = "{164, 23727}";
+			sepNavVisRect = "{{0, 0}, {696, 585}}";
+		};
+	};
+	628618A80927711D0060DCC8 /* EditMesh */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = EditMesh;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	628618BF092771320060DCC8 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+		scmType = "";
+	};
+	628618C0092771320060DCC8 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	628618C1092771990060DCC8 /* MyMeshView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {982, 1352}}";
+			sepNavSelRange = "{2070, 0}";
+			sepNavVisRange = "{1119, 1251}";
+			sepNavVisRect = "{{0, 12}, {696, 585}}";
+		};
+	};
+	628618CB0927721E0060DCC8 /* Trackball.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {744, 645}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 495}";
+			sepNavVisRect = "{{0, 0}, {696, 585}}";
+		};
+	};
+	628618CC0927721E0060DCC8 /* Trackball.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {678, 2574}}";
+			sepNavSelRange = "{4190, 27}";
+			sepNavVisRange = "{3445, 1644}";
+			sepNavVisRect = "{{0, 0}, {696, 644}}";
+		};
+	};
+	62878296129ADA2B00E922A7 /* mesh.c:995 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 626E13770988F063008C58B0 /* mesh.c */;
+		functionName = "msh_importPlyMeshData()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 995;
+		modificationTime = 359985644.548632;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	6287829D129ADA5E00E922A7 /* mesh.c:1004 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 626E13770988F063008C58B0 /* mesh.c */;
+		functionName = "msh_importPlyMeshData()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1004;
+		modificationTime = 359985644.548668;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	628EB77113DD9CFB0050CEA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 626E13F809891ACF008C58B0 /* editmesh.c */;
+		name = "editmesh.c: 1319";
+		rLen = 9;
+		rLoc = 40367;
+		rType = 0;
+		vrLen = 1608;
+		vrLoc = 45628;
+	};
+	628EB7CD13DDA13B0050CEA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 62FDF34F0A948D0000EFFA91 /* util.c */;
+		name = "util.c: 309";
+		rLen = 0;
+		rLoc = 7594;
+		rType = 0;
+		vrLen = 1081;
+		vrLoc = 6989;
+	};
+	62982A1A101DE4C6000077C7 /* mesh.c:450 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 626E13770988F063008C58B0 /* mesh.c */;
+		functionName = "msh_packFSMeshData()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 450;
+		modificationTime = 359985644.5481111;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	629C3C941253C58100C54BB2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6201740D0D8559A5009917BF /* MyTextView.h */;
+		name = "MyTextView.h: 11";
+		rLen = 59;
+		rLoc = 135;
+		rType = 0;
+		vrLen = 199;
+		vrLoc = 0;
+	};
+	629C3C961253C58100C54BB2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 62FDF3500A948D0000EFFA91 /* util.h */;
+		name = "util.h: 18";
+		rLen = 0;
+		rLoc = 395;
+		rType = 0;
+		vrLen = 723;
+		vrLoc = 0;
+	};
+	629DE7AD167B35C300428401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 626E13770988F063008C58B0 /* mesh.c */;
+		name = "mesh.c: 89";
+		rLen = 1337;
+		rLoc = 1836;
+		rType = 0;
+		vrLen = 1273;
+		vrLoc = 1979;
+	};
+	629DE7AF167B35C300428401 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 62AD36AF0C55E395009892F6 /* MyMeshView.m */;
+		name = "MyMeshView.m: 232";
+		rLen = 0;
+		rLoc = 8359;
+		rType = 0;
+		vrLen = 1335;
+		vrLoc = 7961;
+	};
+	62A7309A0F32FE6400B4E330 /* colourmap.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {524, 586}}";
+			sepNavSelRange = "{786, 0}";
+			sepNavVisRange = "{0, 787}";
+		};
+	};
+	62AD36AF0C55E395009892F6 /* MyMeshView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {982, 16471}}";
+			sepNavSelRange = "{8359, 0}";
+			sepNavVisRange = "{7961, 1332}";
+			sepNavVisRect = "{{0, 2431}, {705, 584}}";
+		};
+	};
+	62B471A30F4180DA0083DF4A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 62A7309A0F32FE6400B4E330 /* colourmap.c */;
+		name = "colourmap.c: 26";
+		rLen = 0;
+		rLoc = 786;
+		rType = 0;
+		vrLen = 787;
+		vrLoc = 0;
+	};
+	62BC190813D98DB2001B3AB0 /* editmesh.c:1332 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 626E13F809891ACF008C58B0 /* editmesh.c */;
+		functionName = "em_smooth()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1332;
+		modificationTime = 359985644.54869;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	62BC194D13D9BCA7001B3AB0 /* editmesh.c:1317 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 626E13F809891ACF008C58B0 /* editmesh.c */;
+		functionName = "em_smooth()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1317;
+		modificationTime = 359985644.5487159;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	62BC195313D9BCC4001B3AB0 /* editmesh.c:1326 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 626E13F809891ACF008C58B0 /* editmesh.c */;
+		functionName = "em_smooth()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1326;
+		modificationTime = 359985644.5487421;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	62BE434910A07C4500A9A8E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 627E2F9309FA1CC5003A6515 /* colourmap.h */;
+		name = "colourmap.h: 51";
+		rLen = 0;
+		rLoc = 23688;
+		rType = 0;
+		vrLen = 23727;
+		vrLoc = 164;
+	};
+	62BE436510A08CE500A9A8E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 628618CC0927721E0060DCC8 /* Trackball.m */;
+		name = "Trackball.m: 112";
+		rLen = 27;
+		rLoc = 4190;
+		rType = 0;
+		vrLen = 1537;
+		vrLoc = 3445;
+	};
+	62C0023C106CF4090022DAC4 /* MyDocument.m:620 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
+		functionName = "-deleteVertices:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 620;
+		modificationTime = 359985644.548387;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	62C00247106CF7E90022DAC4 /* MyDocument.m:615 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
+		functionName = "-deleteVertices:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 615;
+		modificationTime = 359985644.5485761;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	62DBF302164FBC5700C74997 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 626E13780988F063008C58B0 /* mesh.h */;
+		name = "mesh.h: 107";
+		rLen = 0;
+		rLoc = 2933;
+		rType = 0;
+		vrLen = 1568;
+		vrLoc = 2018;
+	};
+	62E4558212A0E419008B008E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 626E13F909891ACF008C58B0 /* editmesh.h */;
+		name = "editmesh.h: 121";
+		rLen = 28;
+		rLoc = 3534;
+		rType = 0;
+		vrLen = 1548;
+		vrLoc = 2611;
+	};
+	62FBD0601560150A0073A55C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 626E13D609891A2E008C58B0 /* math3D.c */;
+		name = "math3D.c: 16";
+		rLen = 113;
+		rLoc = 267;
+		rType = 0;
+		vrLen = 777;
+		vrLoc = 139;
+	};
+	62FDF34F0A948D0000EFFA91 /* util.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1092, 4446}}";
+			sepNavSelRange = "{7594, 0}";
+			sepNavVisRange = "{6989, 1081}";
+			sepNavVisRect = "{{0, 4111}, {696, 491}}";
+		};
+	};
+	62FDF3500A948D0000EFFA91 /* util.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {744, 645}}";
+			sepNavSelRange = "{395, 0}";
+			sepNavVisRange = "{0, 723}";
+			sepNavVisRect = "{{0, 0}, {696, 491}}";
+		};
+	};
+	8D15AC270486D014006FF6A4 /* EditMesh */ = {
+		activeExec = 0;
+		executables = (
+			628618A80927711D0060DCC8 /* EditMesh */,
+		);
+	};
+	8D15AC360486D014006FF6A4 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 1190}}";
+			sepNavSelRange = "{979, 0}";
+			sepNavVisRect = "{{0, 0}, {884, 1011}}";
+			sepNavWindowFrame = "{{19, 33}, {923, 1140}}";
+		};
+	};
+}

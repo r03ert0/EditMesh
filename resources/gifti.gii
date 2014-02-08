@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE GIFTI SYSTEM "http://www.nitrc.org/frs/download.php/115/gifti.dtd"> 
+<GIFTI Version="1.0"  NumberOfDataArrays="3"> 
+   <MetaData> 
+      <MD> 
+         <Name><![CDATA[Caret-Version]]></Name> 
+         <Value><![CDATA[5.511]]></Value> 
+      </MD> 
+      <MD> 
+         <Name><![CDATA[date]]></Name> 
+         <Value><![CDATA[Thu Nov 15 09:05:22 2007]]></Value> 
+      </MD> 
+      <MD> 
+         <Name><![CDATA[encoding]]></Name> 
+         <Value><![CDATA[XML]]></Value> 
+      </MD> 
+   </MetaData> 
+   <LabelTable/> 
+   <DataArray Intent="NIFTI_INTENT_POINTSET" 
+              DataType="NIFTI_TYPE_FLOAT32" 
+              ArrayIndexingOrder="RowMajorOrder" 
+              Dimensionality="2" 
+              Dim0="143479" 
+              Dim1="3" 
+              Encoding="ASCII" 
+              Endian="LittleEndian" 
+              ExternalFileName="" 
+              ExternalFileOffset=""> 
+      <MetaData> 
+         <MD> 
+            <Name><![CDATA[AnatomicalStructurePrimary]]></Name> 
+            <Value><![CDATA[CortexLeft]]></Value> 
+         </MD> 
+         <MD> 
+            <Name><![CDATA[AnatomicalStructureSecondary]]></Name> 
+            <Value><![CDATA[Pial]]></Value> 
+         </MD> 
+         <MD> 
+            <Name><![CDATA[GeometricType]]></Name> 
+            <Value><![CDATA[Anatomical]]></Value> 
+         </MD> 
+         <MD> 
+             <Name><![CDATA[UniqueID]]></Name> 
+            <Value><![CDATA[{565f3bd1-c0b1-49da-af3d-707cd6a8ccd0}]]></Value> 
+         </MD> 
+      </MetaData> 
+      <CoordinateSystemTransformMatrix> 
+         <DataSpace><![CDATA[NIFTI_XFORM_TALAIRACH]]></DataSpace> 
+         <TransformedSpace><![CDATA[NIFTI_XFORM_TALAIRACH]]></TransformedSpace> 
+         <MatrixData> 
+            1.000000 0.000000 0.000000 0.000000 
+            0.000000 1.000000 0.000000 0.000000 
+            0.000000 0.000000 1.000000 0.000000 
+            0.000000 0.000000 0.000000 1.000000 
+         </MatrixData> 
+      </CoordinateSystemTransformMatrix> 
+      <Data> 
+         -16.072010 -66.187515 21.266994 
+         -16.705893 -66.054337 21.232786 
+         -17.614349 -65.401642 21.071466 
+      </Data> 
+   </DataArray> 
+   <DataArray Intent="NIFTI_INTENT_VECTOR" 
+              DataType="NIFTI_TYPE_FLOAT32" 
+              ArrayIndexingOrder="RowMajorOrder" 
+              Dimensionality="2" 
+              Dim0="143479" 
+              Dim1="3" 
+              Encoding="ASCII"  
+              Endian="LittleEndian" 
+              ExternalFileName="" 
+              ExternalFileOffset=""> 
+      <MetaData> 
+         <MD> 
+            <Name><![CDATA[UniqueID]]></Name> 
+            <Value><![CDATA[{fe2f3bad-2a75-4926-84ee-cf6e3820477f}]]></Value> 
+         </MD> 
+      </MetaData> 
+      <Data> 
+         -0.222756 -0.939575 -0.259960  
+         -0.379413 -0.911859 -0.156711  
+         -0.478813 -0.874120 -0.081563  
+   </Data> 
+   </DataArray> 
+   <DataArray Intent="NIFTI_INTENT_TRIANGLE" 
+              DataType="NIFTI_TYPE_INT32" 
+              ArrayIndexingOrder="RowMajorOrder" 
+              Dimensionality="2" 
+              Dim0="286954" 
+              Dim1="3" 
+              Encoding="ASCII" 
+              Endian="LittleEndian" 
+              ExternalFileName="" 
+              ExternalFileOffset=""> 
+      <MetaData> 
+         <MD> 
+            <Name><![CDATA[TopologicalType]]></Name> 
+            <Value><![CDATA[CLOSED]]></Value> 
+ 
+         </MD> 
+         <MD> 
+            <Name><![CDATA[UniqueID]]></Name> 
+            <Value><![CDATA[{3160d119-081a-4b67-b5c8-bc0765783341}]]></Value> 
+         </MD> 
+      </MetaData> 
+      <Data> 
+         0 1 3 
+         4 3 1 
+         0 30 1 
+      </Data> 
+   </DataArray> 
+</GIFTI>
