@@ -1,2 +1,2 @@
-dependencies: /Users/roberto/Documents/Mi\ C/Standard\ C/util.c \
-  /Users/roberto/Documents/Mi\ C/Standard\ C/util.h
+dependencies: /Users/roberto/Applications/brainbits/m.EditMesh/src/util.c \
+  /Users/roberto/Applications/brainbits/m.EditMesh/src/util.h

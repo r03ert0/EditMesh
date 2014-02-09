@@ -672,8 +672,8 @@ void v_m(float *r,float *v,float *m)
 - (void) setVerticesColour: (float *) vertcolour
 {
     int		i;
-	float	max,min;
-	unsigned char c[3];
+	//float	max,min;
+	//unsigned char c[3];
 	
 	if(vertscolour==nil)
 	{

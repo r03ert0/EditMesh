@@ -30,7 +30,7 @@ void swapfloat(float *n)
 	
 	*n=*(float*)sw;
 }
-void msh_parseRawText(MeshRec *mesh, char *path)
+void msh_readRawText(MeshRec *mesh, char *path)
 {
 	FILE		*f;
 	int			i;
@@ -53,7 +53,7 @@ void msh_parseRawText(MeshRec *mesh, char *path)
 		sscanf(str,"%i %i %i",&(*mesh).t[i].a,&(*mesh).t[i].b,&(*mesh).t[i].c);
 	}
 	
-	(*mesh).xcontainer=0;
+	mesh->xcontainer=0;
     
     msh_getNeighborTrianglesPtr(mesh);
 
@@ -86,7 +86,7 @@ int msh_packRawText(MeshRec *m, char **data)
 
     return sum;
 }
-void msh_parseOFFText(MeshRec *mesh, char *path)
+void msh_readOFFText(MeshRec *mesh, char *path)
 {
 	int			i;
 	FILE		*f;
@@ -304,7 +304,7 @@ int msh_packVerticesData(float *vdat, int dim, int np, char **data)
     return sum;
 }
 
-int msh_importFSMeshData(MeshRec *mesh, char *path)
+int msh_readFreesurferMesh(MeshRec *mesh, char *path)
 {
     FILE	*f;
 	int		i,j;
@@ -398,6 +398,8 @@ int msh_importFSMeshData(MeshRec *mesh, char *path)
 			}
 		}
         
+        mesh->xcontainer=0;
+        
         msh_getNeighborTrianglesPtr(mesh);
 
         update(mesh);
@@ -405,7 +407,7 @@ int msh_importFSMeshData(MeshRec *mesh, char *path)
 	printf("FSSurf finished\n");
 	return 1;
 }
-int msh_packFSMeshData(MeshRec *m, char **data)
+int msh_packFreesurferMeshData(MeshRec *m, char **data)
 {
     int		sum,i,j,k;
     int		id=16777214,a,b,c;
@@ -1160,7 +1162,7 @@ bool msh_new(MeshRec **m, int np, int nt)
     return(isGood);
 }
 
-void msh_dispose(MeshPtr m)
+void msh_dispose(MeshRec *m)
 {
     ContainerPtr	xcH;
     long		temp;
@@ -1182,9 +1184,8 @@ void msh_dispose(MeshPtr m)
             else		xcH=NULL;
         }
     }
-    free(m);
 }
-bool msh_copy(MeshPtr src, MeshPtr *dst)
+bool msh_copy(MeshRec *src, MeshRec **dst)
 {
 	int	i;
 	bool	isGood = true;

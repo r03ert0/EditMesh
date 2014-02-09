@@ -85,10 +85,10 @@ typedef struct {
 }ContainerRec,*ContainerPtr;
 
 // IO Prototypes
-void msh_parseRawText(MeshRec *mesh, char *path);
+void msh_readRawText(MeshRec *mesh, char *path);
 int msh_packRawText(MeshRec *m, char **data);
 
-void msh_parseOFFText(MeshRec *mesh, char *path);
+void msh_readOFFText(MeshRec *mesh, char *path);
 int msh_packOFFText(MeshRec *m, char **data);
 
 void msh_parse3DMFText(MeshRec *mesh, char *data);
@@ -97,8 +97,8 @@ int msh_pack3DMF(MeshRec *m, char **data);
 void msh_parseVerticesDataBin(float **vdat, int *ddim, int np, char *data, int size);
 int msh_packVerticesData(float *vdat, int dim, int np, char **data);
 
-int msh_importFSMeshData(MeshRec *mesh, char *path);
-int msh_packFSMeshData(MeshRec *mesh, char **data);
+int msh_readFreesurferMesh(MeshRec *mesh, char *path);
+int msh_packFreesurferMeshData(MeshRec *mesh, char **data);
 void msh_importFSTextureData(float **dat, int np, char *path);
 int msh_exportFSTextureData(float *d, int np, char *path);
 int msh_importFSMeshAnnotation(float **dat, int np, char *path);
@@ -111,12 +111,10 @@ int msh_packVRML(MeshRec *m, char **data);
 int msh_importPlyMeshData(MeshRec *mesh, char *path);
 int msh_packPly(MeshRec *m, float3D *C, char **data);
 
-void exitmesh(void);
-
 // Prototypes
 bool msh_new(MeshPtr *m, int np, int nt);
-void msh_dispose(MeshPtr mesh);
-bool msh_copy(MeshPtr src, MeshPtr *dst);
+void msh_dispose(MeshRec *mesh);
+bool msh_copy(MeshRec *src, MeshRec **dst);
 
 bool msh_newMeshCurve(MeshCurveRec *MC,int np,int ne);
 void msh_disposeMeshCurve(MeshCurveRec MC);

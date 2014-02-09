@@ -16,7 +16,7 @@
 	{
 		if([e isARepeat]==NO)
 		{
-			unsigned int start,end;
+			unsigned long start,end;
 			NSString	*s;
 			[[self string] getLineStart:&start end:&end contentsEnd:nil forRange:(NSRange){[[self string] length]-1,1}];
 			start+=2;
@@ -33,7 +33,7 @@
 	else
 	if([e keyCode]==126)	// up arrow
 	{
-		unsigned int	start,end;
+		unsigned long	start,end;
 		NSRange			range;
 		
 		ihistory++;
@@ -49,7 +49,7 @@
 	else
 	if([e keyCode]==125)	// down arrow
 	{
-		unsigned int	start,end;
+		unsigned long	start,end;
 		NSRange			range;
 	
 		[[self string] getLineStart:&start end:&end contentsEnd:nil forRange:(NSRange){[[self string] length]-1,1}];
@@ -70,7 +70,7 @@
 	if([e keyCode]==48)	// tab
 	{
 		int				i,j;
-		unsigned int	start,end;
+		unsigned long	start,end;
 		NSString		*s;
 		NSRange			range;
 		char			*first,*second;

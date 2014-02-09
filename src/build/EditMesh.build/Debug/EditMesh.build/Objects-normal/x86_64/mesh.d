@@ -1,4 +1,4 @@
-dependencies: /Users/roberto/Documents/Mi\ C/Standard\ C/mesh.c \
-  /Users/roberto/Documents/Mi\ C/Standard\ C/mesh.h \
-  /Users/roberto/Documents/Mi\ C/Standard\ C/math3D.h \
-  /Users/roberto/Documents/Mi\ C/Standard\ C/util.h
+dependencies: /Users/roberto/Applications/brainbits/m.EditMesh/src/mesh.c \
+  /Users/roberto/Applications/brainbits/m.EditMesh/src/mesh.h \
+  /Users/roberto/Applications/brainbits/m.EditMesh/src/math3D.h \
+  /Users/roberto/Applications/brainbits/m.EditMesh/src/util.h

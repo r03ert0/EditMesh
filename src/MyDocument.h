@@ -32,6 +32,7 @@
 -(IBAction)emRostrocaudal:(id)sender;		//
 -(IBAction)emSmooth:(id)sender;				//
 -(IBAction)emChangeCMapMinMax:(id)sender;
+-(IBAction)emAddMesh:(id)sender;
 
 -(void)addMesh:(char*)path;
 @end

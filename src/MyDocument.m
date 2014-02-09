@@ -86,7 +86,7 @@
 	else
 	if([aType isEqualTo:@"FSSurfType"])
 	{
-		n=msh_packFSMeshData(&M, &bytes);
+		n=msh_packFreesurferMeshData(&M, &bytes);
 		data=[NSData dataWithBytes:bytes length:n];
 	}
 	else
@@ -108,16 +108,16 @@
 - (BOOL)readFromURL:(NSURL*)url ofType:(NSString *)aType error:(NSError**)outError
 {
 	if([aType isEqualTo:@"OFFType"])
-		msh_parseOFFText(&M, (char*)[[url path] UTF8String]);
+		msh_readOFFText(&M, (char*)[[url path] UTF8String]);
 	else
 	if([aType isEqualTo:@"3DMFType"])
 		msh_parse3DMFText(&M, (char*)[[NSData dataWithContentsOfURL:url] bytes]);
 	else
 	if([aType isEqualTo:@"TextMeshType"])
-		msh_parseRawText(&M, (char*)[[url path] UTF8String]);
+		msh_readRawText(&M, (char*)[[url path] UTF8String]);
 	else
 	if([aType isEqualTo:@"FSSurfType"])
-		msh_importFSMeshData(&M, (char*)[[url path] UTF8String]);
+		msh_readFreesurferMesh(&M, (char*)[[url path] UTF8String]);
 	else
 	if([aType isEqualTo:@"VRMLType"])
 		msh_importVRMLMeshData(&M, (char*)[[url path] UTF8String]);
@@ -224,7 +224,7 @@
 	if([ext isEqualTo:@"inflated"])
 	{
 		c=msh_getTexturePtr(&M);
-		msh_importFSMeshData(&M, (char*)[path UTF8String]);
+		msh_readFreesurferMesh(&M, (char*)[path UTF8String]);
 		[view setVertices:(float*)M.p number:M.np];
 		[view setTriangles:(int*)M.t number:M.nt];
 		[view setVerticesColour:(float*)c];
@@ -1278,9 +1278,70 @@ char	*ttmark;
 	*/
 	[view setNeedsDisplay:YES];
 }
+-(void)emAddMesh:(id)sender
+{
+	NSOpenPanel *open=[NSOpenPanel openPanel];
+	int			result;
+	NSString	*path;
+	NSString    *ext;
+    MeshRec     Mtmp;
+	
+	result=[open runModalForDirectory:nil file:nil types:nil];
+	if (result!=NSOKButton)
+		return;
+	path=[[open filenames] objectAtIndex:0];
+    ext=[path pathExtension];
+
+    if([ext isEqualToString:@"txt"])
+    {
+        msh_readRawText(&Mtmp, (char*)[path UTF8String]);
+    }
+    else
+    if([ext isEqualToString:@"inflated"] ||
+       [ext isEqualToString:@"orig"] ||
+       [ext isEqualToString:@"pial"] ||
+       [ext isEqualToString:@"reg"] ||
+       [ext isEqualToString:@"smoothwm"] ||
+       [ext isEqualToString:@"sphere"] ||
+       [ext isEqualToString:@"white"])
+    {
+        msh_readFreesurferMesh(&Mtmp, (char*)[path UTF8String]);
+    }
+    else
+    {
+        printf("ERROR: can't read this file type\n");
+        return;
+    }
+
+	int        i;
+    float3D	*newverts;
+	int3D	*newtris;
+    
+	newverts=(float3D*)calloc(M.np+Mtmp.np,sizeof(float3D));
+	newtris=(int3D*)calloc(M.nt+Mtmp.nt,sizeof(int3D));
+	for(i=0;i<M.np;i++)
+		newverts[i]=M.p[i];
+	for(i=0;i<M.nt;i++)
+		newtris[i]=M.t[i];
+	for(i=0;i<Mtmp.np;i++)
+		newverts[i+M.np]=Mtmp.p[i];
+	for(i=0;i<Mtmp.nt;i++)
+		newtris[i+M.nt]=(int3D){Mtmp.t[i].a+M.np,Mtmp.t[i].b+M.np,Mtmp.t[i].c+M.np};
+	free(M.p);
+	free(M.t);
+	
+	M.p=newverts;
+	M.t=newtris;
+	M.np+=Mtmp.np;
+	M.nt+=Mtmp.nt;
+    
+    msh_dispose(&Mtmp);
+	
+	[self configureMesh];
+}
 -(void)addMesh:(char*)path
 {
-	FILE	*f;
+    FILE	*f;
 	int		i,np,nt;
 	float3D	*p1;
 	int3D	*t1;
