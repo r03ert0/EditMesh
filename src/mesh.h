@@ -101,7 +101,7 @@ int msh_readFreesurferMesh(MeshRec *mesh, char *path);
 int msh_packFreesurferMeshData(MeshRec *mesh, char **data);
 void msh_importFSTextureData(float **dat, int np, char *path);
 int msh_exportFSTextureData(float *d, int np, char *path);
-int msh_importFSMeshAnnotation(float **dat, int np, char *path);
+int msh_importFSMeshAnnotation(float3D *dat, int np, char *path);
 
 void msh_importBVMeshData(MeshRec *mesh, char *path);
 

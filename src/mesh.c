@@ -238,7 +238,10 @@ void msh_parseVerticesDataBin(float **vdat, int *ddim, int np, char *data, int s
 	float	max,min;
 
     while(data[j]!='\n'&&data[j]!='\r')
-        str[j++]=data[j];
+    {
+        str[j]=data[j];
+        j++;
+    }
     str[j++]=(char)0;
     n=sscanf(str," %i %i %i ",&np_file, &nd_file, &version_file);
     *ddim=1;
@@ -585,7 +588,7 @@ void msh_importFSTextureData(float **dat, int np, char *path)
 	
 	fclose(f);
 }
-int msh_importFSMeshAnnotation(float **dat, int np, char *path)
+int msh_importFSMeshAnnotation(float3D *dat, int np, char *path)
 {
     FILE	*f;
 	int		i,l;
@@ -604,7 +607,6 @@ int msh_importFSMeshAnnotation(float **dat, int np, char *path)
     else
     {
         tmp=calloc(np,2*sizeof(int));
-        *dat=(float*)calloc(3*np,sizeof(float));
         if(tmp==NULL) printf("Cannot allocate memory for tmp [msh_importFSMeshAnnotation]\n");
         else
         {
@@ -612,9 +614,9 @@ int msh_importFSMeshAnnotation(float **dat, int np, char *path)
             for(i=0;i<MIN(np,n);i++)
             {
                 l=((int*)tmp)[2*i+1]; if(endianness==1) swapint(&l);
-                (*dat)[3*i+0]=(l&0xff);
-                (*dat)[3*i+1]=((l>>8)&0xff);
-                (*dat)[3*i+2]=((l>>16)&0xff);
+                dat[i].x=(l&0xff);
+                dat[i].y=((l>>8)&0xff);
+                dat[i].z=((l>>16)&0xff);
             }
         }
         free(tmp);

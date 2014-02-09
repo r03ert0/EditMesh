@@ -1162,7 +1162,7 @@ void dynmercator(float *mat, float *src, float *dst)
                                 samplesPerPixel:1
                                 hasAlpha:NO
                                 isPlanar:NO
-                                colorSpaceName:NSCalibratedBlackColorSpace
+                                colorSpaceName:NSCalibratedWhiteColorSpace
 								bitmapFormat:NSFloatingPointSamplesBitmapFormat
                                 bytesPerRow:0
                                 bitsPerPixel:32] autorelease];
@@ -1179,12 +1179,12 @@ void dynmercator(float *mat, float *src, float *dst)
     
     savePanel = [NSSavePanel savePanel];
     
-    [savePanel setRequiredFileType:@"tif"];
+    [savePanel setAllowedFileTypes:[NSArray arrayWithObject:@"tif"]];
     [savePanel setCanSelectHiddenExtension:YES];
     result=[savePanel runModal];
     if (result == NSOKButton)
     {
-        NSString *filename=[savePanel filename];
+        NSString *filename=[[savePanel URL] path];
         [[bmp TIFFRepresentation] writeToFile:filename atomically:YES];
     }
 }
@@ -1217,12 +1217,12 @@ void dynmercator(float *mat, float *src, float *dst)
     
     savePanel = [NSSavePanel savePanel];
     
-    [savePanel setRequiredFileType:@"tif"];
+    [savePanel setAllowedFileTypes:[NSArray arrayWithObject:@"tif"]];
     [savePanel setCanSelectHiddenExtension:YES];
     result=[savePanel runModal];
     if (result == NSOKButton)
     {
-        NSString *filename=[savePanel filename];
+        NSString *filename=[[savePanel URL] path];
         [[img TIFFRepresentation] writeToFile:filename atomically:YES];
     }
 }

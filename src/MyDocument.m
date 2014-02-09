@@ -139,8 +139,8 @@
     result=[savePanel runModal];
     if (result == NSOKButton)
     {
-        NSString *filename=[savePanel filename];
-        msh_exportFSTextureData([view verticesData], M.np, [filename UTF8String]);
+        NSString *filename=[[savePanel URL] path];
+        msh_exportFSTextureData([view verticesData], M.np, (char*)[filename UTF8String]);
     }
 }
 -(IBAction)importVertexData:(id)sender
@@ -152,11 +152,13 @@
 	NSString	*path,*ext;
 	NSData		*data;
 	
-	result=[open runModalForDirectory:nil file:nil types:[NSArray arrayWithObjects:@"annot",@"area",@"avg_curv",@"curv",@"sulc",@"target",@"thickness",@"float",@"inflated",@"txt",@"txt1",nil]];
+    [open setAllowedFileTypes:[NSArray arrayWithObjects:@"annot",@"area",@"avg_curv",@"curv",@"sulc",@"target",@"thickness",@"float",@"inflated",@"txt",@"txt1",nil]];
+	result=[open runModal];
+    //result=[open runModalForDirectory:nil file:nil types:];
 	if (result!=NSOKButton)
 		return;
 	
-	path=[[open filenames] objectAtIndex:0];
+	path=[[[open URLs] objectAtIndex:0] path];
 	ext=[path pathExtension];
 	
 	if([ext isEqualTo:@"annot"])
@@ -164,7 +166,6 @@
         float3D *C=msh_getTexturePtr(&M);
         msh_importFSMeshAnnotation(C,M.np, (char*)[path UTF8String]);
         [view setVerticesColour:(float*)C];
-        free(tmp);
     }
     else
     if([ext isEqualTo:@"float"])
@@ -295,11 +296,12 @@
 	char		str[256];
 	float		*param;
 	
-	result=[open runModalForDirectory:nil file:nil types:[NSArray arrayWithObjects:@"float3D",nil]];
+	[open setAllowedFileTypes:[NSArray arrayWithObjects:@"float3D",nil]];
+    result=[open runModal];
 	if (result!=NSOKButton)
 		return;
 	
-	path=[[open filenames] objectAtIndex:0];
+	path=[[[open URLs] objectAtIndex:0] path];
 	f=fopen([path UTF8String],"r");
 	fgets(str,255,f);
 	param=(float*)calloc(atoi(str)*3,sizeof(float));
@@ -318,11 +320,12 @@
 	char				*data;
 	int					i,j,k;
 	
-	result=[open runModalForDirectory:nil file:nil types:[NSArray arrayWithObjects:@"tif",@"png",@"psd",nil]];
+	[open setAllowedFileTypes:[NSArray arrayWithObjects:@"tif",@"png",@"psd",nil]];
+    result=[open runModal];
 	if (result!=NSOKButton)
 		return;
 	
-	path=[[open filenames] objectAtIndex:0];
+	path=[[[open URLs] objectAtIndex:0] path];
 	
 	img=[[NSImage alloc] initWithContentsOfFile:path];
 	bmp=[[img representations] objectAtIndex:0];
@@ -538,7 +541,7 @@ int		*tmark,icmax,ncverts;
 	free(tmark);
 	free(NT);
 }
--(void)paintVertex:(float)x:(float)y:(float)z
+-(void)paintVertex:(float)x :(float)y :(float)z
 {
 	float	*vc=[view verticesColour];
 	int		i=[view selected];
@@ -1286,10 +1289,10 @@ char	*ttmark;
 	NSString    *ext;
     MeshRec     Mtmp;
 	
-	result=[open runModalForDirectory:nil file:nil types:nil];
+	result=[open runModal];
 	if (result!=NSOKButton)
 		return;
-	path=[[open filenames] objectAtIndex:0];
+	path=[[[open URLs] objectAtIndex:0] path];
     ext=[path pathExtension];
 
     if([ext isEqualToString:@"txt"])
