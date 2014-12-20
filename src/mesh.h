@@ -111,6 +111,9 @@ int msh_packVRML(MeshRec *m, char **data);
 int msh_importPlyMeshData(MeshRec *mesh, char *path);
 int msh_packPly(MeshRec *m, float3D *C, char **data);
 
+int msh_importVTKMeshData(MeshRec *mesh, char *path);
+int msh_packVTK(MeshRec *m, float3D *C, char **data);
+
 // Prototypes
 bool msh_new(MeshPtr *m, int np, int nt);
 void msh_dispose(MeshRec *mesh);

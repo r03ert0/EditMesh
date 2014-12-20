@@ -1132,6 +1132,142 @@ int msh_packPly(MeshRec *m,float3D *C,char **data)
 	
     return sum;
 }
+int msh_importVTKMeshData(MeshRec *mesh, char *path)
+{
+    FILE	*f;
+    int     ip,it,j,k,nval,x;
+    char	str[512],str1[256],str2[256];
+    
+    f=fopen(path,"r");
+    if(f==NULL){printf("ERROR: Cannot open file\n");return 1;}
+    
+    // READ HEADER
+    mesh->np=mesh->nt=ip=it=0;
+    do
+    {
+        fgets(str,511,f);
+        sscanf(str," %s %i %*s ",str1,&x);
+        
+        if(strcmp(str1,"POINTS")==0)
+        {
+            mesh->np=x;
+            (*mesh).p = (float3D*)calloc(mesh->np,sizeof(float3D));
+        }
+        else
+            if(mesh->np>0 && ip<mesh->np)
+            {
+                j=0;
+                nval=0;
+                do
+                {
+                    while(str[j]==' '||str[j]=='\t')
+                        j++;
+                    k=0;
+                    while(str[j]!=' '&&str[j]!='\t'&&str[j]!='\r'&&str[j]!='\n')
+                    {
+                        str2[k]=str[j];
+                        j++;
+                        k++;
+                    }
+                    str2[k]=(char)0;
+                    
+                    if(nval==0)
+                        (mesh->p)[ip].x=atof(str2);
+                    else
+                    if(nval==1)
+                        (mesh->p)[ip].y=atof(str2);
+                    else
+                    if(nval==2)
+                        (mesh->p)[ip].z=atof(str2);
+                    nval++;
+                    if(nval==3)
+                    {
+                        nval=0;
+                        ip++;
+                    }
+                }
+                while(str[j]!='\r'&&str[j]!='\n');
+            }
+            else
+                if(ip==mesh->np && strcmp(str1,"POLYGONS")==0)
+                {
+                    mesh->nt=x;
+                    mesh->t = (int3D*)calloc(mesh->nt,sizeof(int3D));
+                }
+                else
+                if(mesh->nt>0 && it<mesh->nt)
+                {
+                    sscanf(str," 3 %i %i %i ",&((mesh->t)[it].a),&((mesh->t)[it].b),&((mesh->t)[it].c));
+                    it++;
+                }
+                else
+                if(mesh->nt>0 && it==mesh->nt)
+                    break;
+    }
+    while(!feof(f));
+    
+    fclose(f);
+    
+    return 0;
+}
+int msh_packVTK(MeshRec *m,float3D *C,char **data)
+{
+    float3D	*p;
+    int3D	*t;
+    
+    p=msh_getPointsPtr(m);
+    t=msh_getTrianglesPtr(m);
+
+    int     np=m->np;
+    int     nt=m->nt;
+    
+    char	str[255];
+    int     i,sum;
+    
+    
+    sum=0;
+    // WRITE HEADER
+    sum+=sprintf(str,"# vtk DataFile Version 3.0\n");
+    sum+=sprintf(str,"vtk output\n");
+    sum+=sprintf(str,"ASCII\n");
+    sum+=sprintf(str,"DATASET POLYDATA\n");
+    // WRITE VERTICES
+    sum+=sprintf(str,"POINTS %i float\n",np);
+    for(i=0;i<np;i++)
+    {
+        sum+=sprintf(str,"%f %f %f ", p[i].x,p[i].y,p[i].z);
+        if(i%3==0)
+            sum+=sprintf(str,"\n");
+    }
+    sum+=sprintf(str,"\n");
+    // WRITE TRIANGLES
+    sum+=sprintf(str,"POLYGONS %i %i\n",nt,nt*4);
+    for(i=0;i<nt;i++)
+        sum+=sprintf(str,"3 %i %i %i\n",t[i].a,t[i].b,t[i].c);
+    
+
+    *data=calloc(sum,1);
+    sum=0;
+    sum+=sprintf(&(*data)[sum],"# vtk DataFile Version 3.0\n");
+    sum+=sprintf(&(*data)[sum],"vtk output\n");
+    sum+=sprintf(&(*data)[sum],"ASCII\n");
+    sum+=sprintf(&(*data)[sum],"DATASET POLYDATA\n");
+    // WRITE VERTICES
+    sum+=sprintf(&(*data)[sum],"POINTS %i float\n",np);
+    for(i=0;i<np;i++)
+    {
+        sum+=sprintf(&(*data)[sum],"%f %f %f ", p[i].x,p[i].y,p[i].z);
+        if(i%3==0)
+            sum+=sprintf(&(*data)[sum],"\n");
+    }
+    sum+=sprintf(&(*data)[sum],"\n");
+    // WRITE TRIANGLES
+    sum+=sprintf(&(*data)[sum],"POLYGONS %i %i\n",nt,nt*4);
+    for(i=0;i<nt;i++)
+        sum+=sprintf(&(*data)[sum],"3 %i %i %i\n",t[i].a,t[i].b,t[i].c);
+    
+    return sum;
+}
 
 #pragma mark -
 //

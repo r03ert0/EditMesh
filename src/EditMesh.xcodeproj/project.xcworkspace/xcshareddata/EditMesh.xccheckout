@@ -10,31 +10,31 @@
 	<string>EditMesh</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>8740EA21-14F8-4DC9-9723-6E1F3877E376</key>
+		<key>0B96DDDC138AF5D2D45BE6D327FEA201071C727B</key>
 		<string>https://github.com/r03ert0/EditMesh.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>src/EditMesh.xcodeproj/project.xcworkspace</string>
+	<string>src/EditMesh.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>8740EA21-14F8-4DC9-9723-6E1F3877E376</key>
+		<key>0B96DDDC138AF5D2D45BE6D327FEA201071C727B</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/r03ert0/EditMesh.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>8740EA21-14F8-4DC9-9723-6E1F3877E376</string>
+	<string>0B96DDDC138AF5D2D45BE6D327FEA201071C727B</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>8740EA21-14F8-4DC9-9723-6E1F3877E376</string>
+			<string>0B96DDDC138AF5D2D45BE6D327FEA201071C727B</string>
 			<key>IDESourceControlWCCName</key>
-			<string>m</string>
+			<string>m.EditMesh</string>
 		</dict>
 	</array>
 </dict>

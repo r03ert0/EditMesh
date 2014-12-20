@@ -201,7 +201,7 @@
 		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0610;
 			};
 			buildConfigurationList = 628618BB092771320060DCC8 /* Build configuration list for PBXProject "EditMesh" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -346,6 +346,7 @@
 		628618BC092771320060DCC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
 		};

@@ -101,6 +101,12 @@
 		n=msh_packPly(&M,(float3D*)[view verticesColour],&bytes);
 		data=[NSData dataWithBytes:bytes length:n];
 	}
+    else
+    if([aType isEqualTo:@"VTKMeshType"])
+    {
+        n=msh_packVTK(&M,(float3D*)[view verticesColour],&bytes);
+        data=[NSData dataWithBytes:bytes length:n];
+    }
 	
     return data;
 }
@@ -124,9 +130,12 @@
 	else
 	if([aType isEqualTo:@"BVMeshType"])
 		msh_importBVMeshData(&M, (char*)[[url path] UTF8String]);
-	else
-	if([aType isEqualTo:@"PlyMeshType"])
-		msh_importPlyMeshData(&M, (char*)[[url path] UTF8String]);
+    else
+    if([aType isEqualTo:@"PlyMeshType"])
+        msh_importPlyMeshData(&M, (char*)[[url path] UTF8String]);
+    else
+    if([aType isEqualTo:@"VTKMeshType"])
+        msh_importVTKMeshData(&M, (char*)[[url path] UTF8String]);
 	
 	return YES;
 }
@@ -552,6 +561,48 @@ int		*tmark,icmax,ncverts;
 	
 	[view setNeedsDisplay:YES];
 }
+-(void)foldLength
+{
+    
+    int     nt=M.nt;
+    float3D *p=M.p;
+    int3D   *t=M.t;
+    float   *data=(float*)calloc(M.np,sizeof(float));
+    int     i,j;
+    float   length=0,a,x;
+    float3D p0[3];
+    
+    em_textureMeanCurvature(&M,data);
+	for(i=0;i<M.np;i++)
+		data[i]=(data[i]-0.5)/0.5;
+    
+    for(i=0;i<nt;i++)
+    {
+        j=0;
+        if(data[t[i].a]*data[t[i].b]<0)
+        {
+            a=fabs(data[t[i].a]);
+            x=a/(a+fabs(data[t[i].b]));
+            p0[j++]=add3D(sca3D(p[t[i].a],1-x),sca3D(p[t[i].b],x));
+        }
+        if(data[t[i].b]*data[t[i].c]<0)
+        {
+            a=fabs(data[t[i].b]);
+            x=a/(a+fabs(data[t[i].c]));
+            p0[j++]=add3D(sca3D(p[t[i].b],1-x),sca3D(p[t[i].c],x));
+        }
+        if(data[t[i].c]*data[t[i].a]<0)
+        {
+            a=fabs(data[t[i].c]);
+            x=a/(a+fabs(data[t[i].a]));
+            p0[j++]=add3D(sca3D(p[t[i].c],1-x),sca3D(p[t[i].a],x));
+        }
+        if(j==2)
+            length+=norm3D(sub3D(p0[0],p0[1]));
+    }
+    free(data);
+    printf("foldLength: %f\n",length/2.0);
+}
 -(void)protrusions
 {
 	// get spherical parametrisation
@@ -924,6 +975,7 @@ void addTriangle(MeshRec *M,int3D *T, int *p1, int t1, int i1, int j1)
 }
 -(void)taubinSmoothWithLambda:(float)lambda mu:(float)mu iterations:(int)N
 {
+    printf(">>\n");
 	int	i;
 	
 	for(i=0;i<N;i++)
@@ -1180,9 +1232,12 @@ char	*ttmark;
 			[self valueAtVertex:a];
 	}
 	else
-	if(strcmp(cmd,"rostrocaudal")==0)
-		[self emRostrocaudal:self];
-	else
+    if(strcmp(cmd,"rostrocaudal")==0)
+        [self emRostrocaudal:self];
+    else
+    if(strcmp(cmd,"foldLength")==0)
+        [self foldLength];
+    else
 	if(strcmp(cmd,"protrusions")==0)
 		[self protrusions];
 	else

@@ -54,12 +54,19 @@ void v_m(float *r,float *v,float *m)
 	// 1. Initialize pixel format
     GLuint attribs[] = 
     {
+/*
+        NSOpenGLPFAOpenGLProfile,
+        NSOpenGLProfileVersion3_2Core,
+        NSOpenGLPFAColorSize, 24,
+        NSOpenGLPFAAlphaSize, 8,
+        NSOpenGLPFADoubleBuffer,
+        NSOpenGLPFAAccelerated,
+*/
             NSOpenGLPFANoRecovery,
-            NSOpenGLPFAWindow,
-            NSOpenGLPFAAccelerated,
-            NSOpenGLPFADoubleBuffer,
             NSOpenGLPFAColorSize, 24,
             NSOpenGLPFAAlphaSize, 8,
+            NSOpenGLPFADoubleBuffer,
+            NSOpenGLPFAAccelerated,
             NSOpenGLPFADepthSize, 24,
             NSOpenGLPFAStencilSize, 8,
             NSOpenGLPFAAccumSize, 0,
@@ -69,7 +76,9 @@ void v_m(float *r,float *v,float *m)
     NSOpenGLPixelFormat* fmt = [[NSOpenGLPixelFormat alloc] initWithAttributes: (NSOpenGLPixelFormatAttribute*) attribs];
     self = [super initWithFrame:frame pixelFormat: [fmt autorelease]];
     if (!fmt)	NSLog(@"No OpenGL pixel format");
+
     [[self openGLContext] makeCurrentContext];
+
     
     // 2. Init GL
     //NOTEXTURE glEnable(GL_TEXTURE_2D);
