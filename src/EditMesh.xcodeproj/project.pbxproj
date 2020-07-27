@@ -303,6 +303,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = EditMesh;
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
@@ -321,6 +322,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = EditMesh;
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = NO;
@@ -338,6 +340,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = EditMesh;
 				WRAPPER_EXTENSION = app;
 			};

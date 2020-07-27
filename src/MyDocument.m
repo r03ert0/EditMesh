@@ -1301,19 +1301,24 @@ char	*ttmark;
             [view morphToMeshAtPath:str destination:str1 nframes:x];
     }
     else
-	if(strcmp(cmd,"addMesh")==0)
-	{
-		n=sscanf(cs," addMesh %s ",str);
-		if(n==1)
-			[self addMesh:str];
-	}
-	else
-        if(strcmp(cmd,"saveStereographic")==0)
-        {
-            n=sscanf(cs," saveStereographic %s ",str);
-            if(n==1)
-                [self saveStereographic:str];
-        }
+    if(strcmp(cmd,"addMesh")==0)
+    {
+        n=sscanf(cs," addMesh %s ",str);
+        if(n==1)
+            [self addMesh:str];
+    }
+    else
+    if(strcmp(cmd,"applyRotation")==0)
+    {
+        [self applyRotation];
+    }
+    else
+    if(strcmp(cmd,"saveStereographic")==0)
+    {
+        n=sscanf(cs," saveStereographic %s ",str);
+        if(n==1)
+            [self saveStereographic:str];
+    }
 	/*
 	if(strcmp(cmd,"setCentreMesh")==0)
 	{
@@ -1397,6 +1402,31 @@ char	*ttmark;
 	
 	[self configureMesh];
 }
+-(void)applyRotation
+{
+    float   mat[16];
+    float   rmat[9],imat[9];
+    int		i;
+    float3D p,q;
+    
+    [view getRotationMatrix:mat];
+    rmat[0]=mat[0]; rmat[1]=mat[1]; rmat[2]=mat[2];
+    rmat[3]=mat[4]; rmat[4]=mat[5]; rmat[5]=mat[6];
+    rmat[6]=mat[8]; rmat[7]=mat[9]; rmat[8]=mat[10];
+    invMat(rmat,imat);
+    printf("%g %g %g\n%g %g %g\n%g %g %g\n",
+           imat[0],imat[1],imat[2],
+           imat[3],imat[4],imat[5],
+           imat[6],imat[7],imat[8]);
+    for(i=0;i<M.np;i++)
+    {
+        p=M.p[i];
+        q.x=imat[0]*p.x+imat[1]*p.y+imat[2]*p.z;
+        q.y=imat[3]*p.x+imat[4]*p.y+imat[5]*p.z;
+        q.z=imat[6]*p.x+imat[7]*p.y+imat[8]*p.z;
+        M.p[i]=q;
+    }
+}
 -(void)addMesh:(char*)path
 {
     FILE	*f;
@@ -1457,7 +1487,8 @@ char	*ttmark;
     int       i,j,np,nt,flag,n;
     float     R=0;
 	
-	[view projection2];
+    //[view projection2];
+    [view projection];
 
     p=(float3D*)[view vertsproj];
     t=(int3D*)[view tris];

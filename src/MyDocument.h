@@ -34,5 +34,6 @@
 -(IBAction)emChangeCMapMinMax:(id)sender;
 -(IBAction)emAddMesh:(id)sender;
 
+-(void)applyRotation;
 -(void)addMesh:(char*)path;
 @end

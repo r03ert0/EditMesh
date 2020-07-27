@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>8D1642EE-A1EB-48A4-9162-E0D360A06199</string>
 	<key>IDESourceControlProjectName</key>
-	<string>EditMesh</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>0B96DDDC138AF5D2D45BE6D327FEA201071C727B</key>
 		<string>https://github.com/r03ert0/EditMesh.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>src/EditMesh.xcodeproj</string>
+	<string>src/EditMesh.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>0B96DDDC138AF5D2D45BE6D327FEA201071C727B</key>

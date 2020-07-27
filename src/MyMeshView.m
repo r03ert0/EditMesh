@@ -1130,8 +1130,10 @@ void dynmercator(float *mat, float *src, float *dst)
     fclose(f);
     
     // turn &scale mesh
+    /*
     for(i=0;i<np;i++)
         p1[i]=(float3D){g*(p1[i].x-o.x),g*(p1[i].y-o.y),-g*(p1[i].z-o.z)};
+    */
 	
 	[self display];
 	for(i=0;i<nframes;i++)

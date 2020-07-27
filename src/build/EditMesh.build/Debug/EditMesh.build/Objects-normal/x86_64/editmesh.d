@@ -1,4 +1,5 @@
 dependencies: \
+  /Users/roberto/Applications/brainbits/m.EditMesh/src/EditMesh_Prefix.pch \
   /Users/roberto/Applications/brainbits/m.EditMesh/src/editmesh.c \
   /Users/roberto/Applications/brainbits/m.EditMesh/src/editmesh.h \
   /Users/roberto/Applications/brainbits/m.EditMesh/src/mesh.h \
