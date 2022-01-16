@@ -603,7 +603,7 @@ int intersect_segments(float3D *L0, float3D *L1, float3D *I,float *cord, double 
     float    d = dot3D(u,w);
     float    e = dot3D(v,w);
     float    D = a*c - b*b;         // always >= 0
-    float    s,t;
+    float    s=0,t;
     int		 intersection=0;
 
     // compute the line parameters of the two closest points

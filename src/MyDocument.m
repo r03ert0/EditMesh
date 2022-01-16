@@ -358,29 +358,29 @@
 	
 	// convert mesh to sphere
 	C=msh_getTexturePtr(&M);
-	if(1)
-		em_sphereFromTxtr(&M,C);
+    //	if(1)
+    em_sphereFromTxtr(&M,C);
 	
-	if(0)
-	{
-		int	i;
-		float	*vc=[view verticesColour];
-		for(i=0;i<M.np;i++)
-		{
-			vc[3*i+0]=C[i].x;
-			vc[3*i+1]=C[i].y;
-			vc[3*i+2]=C[i].z;
-		}
-	}
-	if(0)
-	{
-		// save equivalent sphere points
-		FILE *f=fopen("/Users/roberto/Desktop/sphere.txt","w");
-		int	i;
-		for(i=0;i<M.np;i++)
-			fprintf(f,"%f %f %f\n",M.p[i].x,M.p[i].y,M.p[i].z);
-		fclose(f);
-	}
+    //	if(0)
+    //	{
+    //		int	i;
+    //		float	*vc=[view verticesColour];
+    //		for(i=0;i<M.np;i++)
+    //		{
+    //			vc[3*i+0]=C[i].x;
+    //			vc[3*i+1]=C[i].y;
+    //			vc[3*i+2]=C[i].z;
+    //		}
+    //	}
+    //	if(0)
+    //	{
+    //		// save equivalent sphere points
+    //		FILE *f=fopen("/Users/roberto/Desktop/sphere.txt","w");
+    //		int	i;
+    //		for(i=0;i<M.np;i++)
+    //			fprintf(f,"%f %f %f\n",M.p[i].x,M.p[i].y,M.p[i].z);
+    //		fclose(f);
+    //	}
 
 	[view setNeedsDisplay:YES];
 }
@@ -722,13 +722,13 @@ int		*tmark,icmax,ncverts;
 	[view setVerticesData:D];
 	msh_setNeighborTriangles(&M);
 
-	if(0)
-	{
-	for(i=0;i<np;i++)
-		printf("%f %f %f\n",p[i].x,p[i].y,p[i].z);
-	for(i=0;i<nt;i++)
-		printf("%i %i %i\n",t[i].a,t[i].b,t[i].c);
-	}
+    //	if(0)
+    //	{
+    //	for(i=0;i<np;i++)
+    //		printf("%f %f %f\n",p[i].x,p[i].y,p[i].z);
+    //	for(i=0;i<nt;i++)
+    //		printf("%i %i %i\n",t[i].a,t[i].b,t[i].c);
+    //	}
 
 	[view setNeedsDisplay:YES];
 }
